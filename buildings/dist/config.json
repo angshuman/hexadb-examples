@@ -1,0 +1,12 @@
+{
+    "host": "http://localhost:8000",
+    "appId": "app1",
+    "create": {
+        "region": 2,
+        "zone": 2,
+        "building": 10,
+        "floor": 5,
+        "room": 10,
+        "sensor": 2
+    }
+}

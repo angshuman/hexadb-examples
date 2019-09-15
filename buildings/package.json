@@ -1,0 +1,36 @@
+{
+  "name": "hehadb-buildings",
+  "version": "1.0.0",
+  "description": "Data modelling a building with sensors in HexaDb",
+  "main": "./index.js",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json --fix",
+    "prebuild": "npm run lint",
+    "build": "tsc && npm run config",
+    "watch": "tsc -w",
+    "start": "node ./dist/index.js",
+    "prepublish": "npm run build",
+    "config": "cp config.json dist"
+  },
+  "author": "Microsoft",
+  "license": "MIT",
+  "peerDependencies": {
+    "typescript": "^2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.47",
+    "@types/request-promise": "^4.1.44",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "@azure/cosmos": "^2.0.0",
+    "chalk": "^2.4.2",
+    "clui": "^0.3.6",
+    "docker-names": "^1.1.1",
+    "figlet": "^1.2.3",
+    "shortid": "^2.2.14",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
