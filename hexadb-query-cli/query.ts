@@ -1,6 +1,43 @@
 import * as inquirer from 'inquirer';
-import { query } from './client';
+import { query, get } from './client';
 import Table = require('cli-table');
+import * as pretty from 'prettyjson';
+
+export async function getPrompt(baseurl: string) {
+    const idQuestion = [
+        {
+            type: 'input',
+            name: 'id',
+            message: "Id",
+            validate: (v: string) => {
+                if (v) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'level',
+            message: "Expand level",
+            default: 2,
+            validate: (v: string) => {
+                if (parseInt(v) >= 0) {
+                    return true;
+                }
+                return false;
+            }
+        },
+
+    ];
+    const answer = await inquirer.prompt(idQuestion);
+    const rsp = await get(baseurl, answer.id.toString(), answer.level.toString());
+    if (rsp) {
+        print([rsp], null);
+        console.log(pretty.render(rsp));
+    }
+}
 
 export async function queryPrompt(baseurl: string) {
     let answer = { text: '' };
@@ -13,7 +50,7 @@ export async function queryPrompt(baseurl: string) {
                 message: "Filter",
                 default: 'run',
                 validate: (v: string) => {
-                    if (v.length === 0 ) {
+                    if (v.length === 0) {
                         return false;
                     }
                     if (v === 'run' && context == null) {

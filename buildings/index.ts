@@ -12,8 +12,8 @@ const host = 'http://localhost:5000';
 const appId = 'app006';
 
 const config: object = {
-    region: 4,
-    zone: 8,
+    region: 2,
+    zone: 2,
     building: 8,
     floor: 4,
     room: 16,
@@ -50,7 +50,7 @@ function createEntity(config: object, index: number, parent: string): object[] {
     for (let i = 0; i < count; i++) {
         const desc = `${parent}:${type}:${i}`;
         if (childType) {
-            const id = shortid();
+            const id = shortid.generate();
             ids.push({ id });
             const children = createEntity(config, index + 1, desc);
             const entity: any = {
@@ -65,12 +65,12 @@ function createEntity(config: object, index: number, parent: string): object[] {
             requestQueue.push(entity);
         } else {
             //  leaf
-            const sensorId = shortid();
+            const sensorId = shortid.generate();
 
             ids.push({ id: sensorId });
-            
+
             const sensor: any = {
-                id: shortid(),
+                id: sensorId,
                 description: desc,
                 type: 'sensor',
                 name: `${type} ${entityCounts[type]++}`,
@@ -95,26 +95,27 @@ function createEntity(config: object, index: number, parent: string): object[] {
 
             requestQueue.push(sensor);
 
-            const occupancyId = shortid();
+            const occupancyId = shortid.generate();
 
             ids.push({ id: occupancyId });
-            
+
             const occupancy = {
-                id: shortid(),
+                id: occupancyId,
                 description: desc + ':occupancy',
                 type: 'occupancy',
                 name: `${type} ${entityCounts[type]++}`,
                 tag: names.getRandomName(),
                 firmware: getRandom(0, 2, 1).toString(),
-                value: {
-                    number: getRandom(1, 10),
-                    forMinutes: getRandom(10, 60)
+                occupancy: getRandom(0, 10, 0),
+                lastMeeting: {
+                    number: getRandom(1, 10, 0),
+                    forMinutes: getRandom(10, 60, 0)
                 },
-                corner1 : {
+                corner1: {
                     temperature: getRandom(50, 100),
                     humidity: getRandom(70, 100)
                 },
-                corner2 : {
+                corner2: {
                     temperature: getRandom(50, 100),
                     humidity: getRandom(70, 100)
                 }
@@ -150,7 +151,7 @@ async function run() {
 
 async function print() {
     createEntity(config, 0, 'r');
-    requestQueue.push(Object.assign({id: 'stats'}, entityCounts));
+    requestQueue.push(Object.assign({ id: 'stats' }, entityCounts));
     fs.writeFileSync('region.json', JSON.stringify(requestQueue, null, 2));
 }
 

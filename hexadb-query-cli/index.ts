@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import * as inquirer from 'inquirer';
 import { ingestPrompt } from './ingest';
-import { queryPrompt } from './query';
+import { queryPrompt, getPrompt } from './query';
 
 async function run() {
     const baseQuestions = [
@@ -9,7 +9,9 @@ async function run() {
             type: 'rawlist',
             name: 'baseurl',
             message: "Base URL",
-            choices : ["http://localhost:5000", "http://localhost:8000"]
+            choices: [
+                "http://localhost:5000",
+                "http://localhost:8000"]
         },
         {
             type: 'input',
@@ -27,7 +29,8 @@ async function run() {
                 type: 'rawlist',
                 name: 'command',
                 message: 'command',
-                choices: ['ingest', 'query', 'exit']
+                choices: ['query', 'get', 'ingest', 'exit'],
+                default: "query"
             }
         ];
 
@@ -40,6 +43,9 @@ async function run() {
                 break;
             case 'query':
                 await queryPrompt(baseurl);
+                break;
+            case "get":
+                await getPrompt(baseurl);
                 break;
             case 'exit':
                 return 0;
