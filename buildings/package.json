@@ -29,8 +29,8 @@
     "clui": "^0.3.6",
     "docker-names": "^1.1.1",
     "figlet": "^1.2.3",
-    "shortid": "^2.2.14",
     "request": "^2.88.0",
-    "request-promise": "^4.2.4"
+    "request-promise": "^4.2.4",
+    "shortid": "^2.2.15"
   }
 }

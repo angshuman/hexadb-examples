@@ -1,7 +1,9 @@
 import * as rp from 'request-promise';
+import * as fs from 'fs';
 
-// const names = require("docker-names");
-// const shortid = require("shortid");
+const names = require("docker-names");
+const shortid = require("shortid");
+
 // const chalk = require("chalk");
 // const clui = require("clui");
 // const Gauge = clui.Gauge;
@@ -10,18 +12,18 @@ const host = 'http://localhost:5000';
 const appId = 'app006';
 
 const config: object = {
-    region: 2,
-    zone: 2,
+    region: 4,
+    zone: 8,
     building: 8,
     floor: 4,
-    room: 2,
-    sensor: 2,
+    room: 16,
+    sensor: 1,
 };
 
 const requestQueue: any[] = [];
 
-function getRandom(min: number, max: number) {
-    return +((Math.random() * (max - min)) + min).toFixed(2);
+function getRandom(min: number, max: number, precision: number = 2) {
+    return +((Math.random() * (max - min)) + min).toFixed(precision);
 }
 
 const states = ["stopped", "stopped", "running", "running", "running", "running", "running", "running", "running", "error"];
@@ -30,6 +32,9 @@ function getRandomState() {
     const i = Math.floor(((Math.random() * 10)));
     return states[i];
 }
+
+const entityCounts = Object.assign({}, config);
+Object.keys(entityCounts).filter(x => entityCounts[x] = 0);
 
 function createEntity(config: object, index: number, parent: string): object[] {
     const type = Object.keys(config)[index];
@@ -43,29 +48,80 @@ function createEntity(config: object, index: number, parent: string): object[] {
     const ids = [];
 
     for (let i = 0; i < count; i++) {
-        const id = `${parent}:${type}:${i}`;
-        ids.push({ id });
-        const children = createEntity(config, index + 1, id);
-        const entity: any = {
-            id,
-            type,
-            name: `Entity ${type} ${i}`,
-        };
-
+        const desc = `${parent}:${type}:${i}`;
         if (childType) {
-            entity[childType + "s"] = children
-        } else {
-            entity.temperature = getRandom(50, 70);
-            entity.humidity = getRandom(0, 20);
-            entity.pressure = getRandom(900, 1100);
-            entity.marker = {
-                status : getRandomState(),
-                red: getRandom(0, 10),
-                blue: getRandom(0, 10),
-                green: getRandom(0, 10)
+            const id = shortid();
+            ids.push({ id });
+            const children = createEntity(config, index + 1, desc);
+            const entity: any = {
+                id,
+                description: desc,
+                type,
+                name: `Entity ${type} ${entityCounts[type]++}`,
+                tag: names.getRandomName()
             };
+
+            entity[childType + "s"] = children
+            requestQueue.push(entity);
+        } else {
+            //  leaf
+            const sensorId = shortid();
+
+            ids.push({ id: sensorId });
+            
+            const sensor: any = {
+                id: shortid(),
+                description: desc,
+                type: 'sensor',
+                name: `${type} ${entityCounts[type]++}`,
+                tag: names.getRandomName(),
+
+
+                firmware: getRandom(0, 2, 1).toString(),
+                temperature: getRandom(50, 100),
+                humidity: getRandom(70, 100),
+                pressure: getRandom(900, 1100),
+                marker: {
+                    status: getRandomState(),
+                    red: getRandom(0, 10),
+                    blue: getRandom(0, 10),
+                    green: getRandom(0, 10),
+                    location: {
+                        lat: getRandom(47.6, 47.7, 5),
+                        long: getRandom(122.3, 122.4, 5)
+                    }
+                }
+            };
+
+            requestQueue.push(sensor);
+
+            const occupancyId = shortid();
+
+            ids.push({ id: occupancyId });
+            
+            const occupancy = {
+                id: shortid(),
+                description: desc + ':occupancy',
+                type: 'occupancy',
+                name: `${type} ${entityCounts[type]++}`,
+                tag: names.getRandomName(),
+                firmware: getRandom(0, 2, 1).toString(),
+                value: {
+                    number: getRandom(1, 10),
+                    forMinutes: getRandom(10, 60)
+                },
+                corner1 : {
+                    temperature: getRandom(50, 100),
+                    humidity: getRandom(70, 100)
+                },
+                corner2 : {
+                    temperature: getRandom(50, 100),
+                    humidity: getRandom(70, 100)
+                }
+            };
+
+            requestQueue.push(occupancy);
         }
-        requestQueue.push(entity);
     }
     return ids;
 }
@@ -92,11 +148,10 @@ async function run() {
     }
 }
 
-// run().then(() => { console.log('Done') });
-
 async function print() {
     createEntity(config, 0, 'r');
-    console.log(JSON.stringify(requestQueue), null, 2);
+    requestQueue.push(Object.assign({id: 'stats'}, entityCounts));
+    fs.writeFileSync('region.json', JSON.stringify(requestQueue, null, 2));
 }
 
 print();
