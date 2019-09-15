@@ -8,7 +8,7 @@ export async function ingestPrompt(baseUrl: string) {
             type: 'input',
             name: 'url',
             message: "URL",
-            default: "https://gist.githubusercontent.com/angshuman/2c401165a2bb4f76d581779e96d4a0ff/raw/a37c997e664ed8e548145c36b18adb038ad0a2ac/Regions1.json"
+            default: "https://gist.githubusercontent.com/angshuman/05df4eca9661bd28858f09bc060a0607/raw/8b59761ea3d36e106824890b190920cdf2926104/med_region.json"
         }
     ];
     const answer = await inquirer.prompt(urlQuestion);
