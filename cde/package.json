@@ -1,0 +1,35 @@
+{
+  "name": "hexadb-cde-ingestion",
+  "version": "1.0.0",
+  "description": "Ingest data from continutous data export",
+  "main": "index.js",
+  "bin": {
+    "hexadb-query": "./out/index.js"
+  },
+  "scripts": {
+    "start": "node ./out/index.js",
+    "build": "rimraf out && tsc"
+  },
+  "author": "Angshuman Sarkar",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/event-processor-host": "^2.1.0",
+    "cli-table": "^0.3.1",
+    "dotenv": "^8.1.0",
+    "inquirer": "^7.0.0",
+    "prettyjson": "^1.2.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "request-promise-native": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/cli-table": "^0.3.0",
+    "@types/dotenv": "^6.1.1",
+    "@types/inquirer": "^6.5.0",
+    "@types/prettyjson": "0.0.29",
+    "@types/request-promise": "^4.1.44",
+    "rimraf": "^3.0.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  }
+}
