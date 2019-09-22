@@ -16,6 +16,24 @@ async function run() {
     );
 
     eph.start(onReceive, onError);
+    setInterval(patchHexastore, 1000);
+}
+
+const requestQueue: object[] = [];
+
+async function patchHexastore() {
+    if (requestQueue.length === 0) {
+        return;
+    }
+    console.log('starting batch');
+    const batch: Promise<any>[] = [];
+    for (let i = 0; i < 100; i++) {
+        const req = requestQueue.pop();
+        if (req) {
+            batch.push(patch(config.hexastore, req));
+        }
+    }
+    await Promise.all(batch);
 }
 
 async function onReceive(context: PartitionContext, eventData: EventData): Promise<void> {
@@ -39,7 +57,7 @@ async function onReceive(context: PartitionContext, eventData: EventData): Promi
                 type: 'device',
                 data: eventData.body
             }
-            await patch(config.hexastore, data);
+            requestQueue.push(data);
             break;
         case 'properties':
             const properties = {
@@ -48,9 +66,9 @@ async function onReceive(context: PartitionContext, eventData: EventData): Promi
                 displayName: eventData.body.displayName,
                 instanceOf: eventData.body.instanceOf,
                 simulated: eventData.body.simulated,
-                data : eventData.body.data
+                data: eventData.body.data
             };
-            await patch(config.hexastore, properties);
+            requestQueue.push(properties);
             break;
     }
 }
