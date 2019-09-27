@@ -1,0 +1,37 @@
+{
+  "name": "hexadb-load-test",
+  "version": "1.0.0",
+  "description": "Hexadb load test",
+  "main": "./dist/index.js",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json --fix",
+    "prebuild": "npm run lint",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "node ./dist/index.js",
+    "prepublish": "npm run build"
+  },
+  "author": "Angshuman Sarkar",
+  "license": "MIT",
+  "peerDependencies": {
+    "typescript": "^2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.47",
+    "@types/request-promise": "^4.1.44",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "@azure/cosmos": "^2.0.0",
+    "@types/clui": "^0.3.0",
+    "chalk": "^2.4.2",
+    "clui": "^0.3.6",
+    "docker-names": "^1.1.1",
+    "figlet": "^1.2.3",
+    "inquirer": "^7.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "shortid": "^2.2.15"
+  }
+}
