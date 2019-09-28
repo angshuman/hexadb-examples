@@ -31,12 +31,50 @@ function createEntity(index: number) {
         firmware: getRandom(0, 2, 1).toString(),
         temperature: getRandom(50, 100),
         humidity: getRandom(70, 100),
+        pressure: getRandom(900, 1100),
+        marker: {
+            status: getRandomState(),
+            red: getRandom(0, 10),
+            blue: getRandom(0, 10),
+            green: getRandom(0, 10),
+            location: {
+                lat: getRandom(47.6, 47.7, 5),
+                long: getRandom(122.3, 122.4, 5)
+            }
+        }
+    };
+    requestQueue.push(sensor);
+}
+
+function createEntity2(index: number) {
+    const sensorId = shortid.generate();
+    const sensor: any = {
+        id: sensorId,
+        type: 'sensor',
+        tag: names.getRandomName(),
+        firmware: getRandom(0, 2, 1).toString(),
+        temperature: getRandom(50, 100),
+        humidity: getRandom(70, 100),
         pressure: getRandom(900, 1100)
     };
     requestQueue.push(sensor);
 }
 
-async function postEntity(host:string, entity: any) {
+async function postEntity(host: string, entity: any) {
+    const uri = `${host}/api/store/${appId}/json`;
+    try {
+        const rsp = await rp(uri, {
+            method: 'PATCH',
+            json: true,
+            body: entity,
+        });
+        return rsp;
+    } catch (err) {
+        throw err;
+    }
+}
+
+async function postEntities(host: string, entity: any[]) {
     const uri = `${host}/api/store/${appId}/json`;
     try {
         const rsp = await rp(uri, {
@@ -59,9 +97,7 @@ async function load(config: any) {
     const progress1 = new clui.Progress(20);
 
     for (let i = 0; i < total; i++) {
-        createEntity(i);
-        // process.stdout.write("\r\x1b[K");
-        // process.stdout.write(progress1.update(i, total));
+        createEntity2(i);
     }
 
     console.log('posting data');
@@ -75,9 +111,8 @@ async function load(config: any) {
 
     while (requestQueue.length > 0) {
         const batch = requestQueue.splice(0, batchSize);
-        const promises = batch.map(x => postEntity(config.connection, x));
         try {
-            await Promise.all(promises);
+            await postEntities(config.connection, batch);
         } catch (err) {
             errCount++;
         }
@@ -87,12 +122,12 @@ async function load(config: any) {
         }
         process.stdout.write("\r\x1b[K");
         process.stdout.write(progress2.update(total - requestQueue.length, total));
-        
+
     }
 
     const latency = new Date().getTime() - start;
     console.log(`Total time: ${latency}ms`);
-    console.log(`req/sec: ${(total * 1.0 )/(latency / 1000)}`);
+    console.log(`req/sec: ${(total * 1.0) / (latency / 1000)}`);
 }
 
 
