@@ -97,7 +97,12 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "[\r\n    {\r\n        \"id\": \"d01\",\r\n        \"type\": \"Device\",\r\n        \"deviceId\": \"device01\",\r\n        \"name\": \"Device 01\",\r\n        \"blocked\": false,\r\n        \"simulated\": false,\r\n        \"data\": {\r\n            \"temp\": 50,\r\n            \"humidity\": 70,\r\n            \"pressure\": 1002.1,\r\n            \"zone\": \"seattle/1\",\r\n            \"marker\": {\r\n                \"red\": true,\r\n                \"blue\": 51,\r\n                \"green\": \"on\"\r\n            }\r\n        }\r\n    },\r\n    {\r\n        \"id\": \"d02\",\r\n        \"type\": \"Device\",\r\n        \"deviceId\": \"device02\",\r\n        \"name\": \"Device 02\",\r\n        \"blocked\": false,\r\n        \"simulated\": false,\r\n        \"data\": {\r\n            \"temp\": 51,\r\n            \"humidity\": 65,\r\n            \"pressure\": 1002.3,\r\n            \"zone\": \"seattle/1\",\r\n            \"marker\": {\r\n                \"red\": true,\r\n                \"blue\": 50,\r\n                \"green\": \"on\"\r\n            }\r\n        }\r\n    },\r\n    {\r\n        \"id\": \"d03\",\r\n        \"type\": \"Device\",\r\n        \"deviceId\": \"device03\",\r\n        \"name\": \"Device 03\",\r\n        \"blocked\": false,\r\n        \"simulated\": true,\r\n        \"data\": {\r\n            \"temp\": 51.1,\r\n            \"humidity\": 70,\r\n            \"pressure\": 1001.8,\r\n            \"zone\": \"seattle/2\",\r\n            \"marker\": {\r\n                \"red\": false,\r\n                \"blue\": 50,\r\n                \"green\": \"off\"\r\n            }\r\n        }\r\n    },\r\n    {\r\n        \"id\": \"d04\",\r\n        \"type\": \"Device\",\r\n        \"deviceId\": \"device04\",\r\n        \"name\": \"Device 04\",\r\n        \"blocked\": false,\r\n        \"simulated\": false,\r\n        \"data\": {\r\n            \"temp\": 50,\r\n            \"humidity\": 70,\r\n            \"pressure\": 1002.1,\r\n            \"zone\": \"redmond/1\",\r\n            \"marker\": {\r\n                \"red\": true,\r\n                \"blue\": 51,\r\n                \"green\": \"on\"\r\n            }\r\n        }\r\n    },\r\n    {\r\n        \"id\": \"d05\",\r\n        \"type\": \"Device\",\r\n        \"deviceId\": \"device05\",\r\n        \"name\": \"Device 05\",\r\n        \"blocked\": false,\r\n        \"simulated\": false,\r\n        \"data\": {\r\n            \"temp\": 51,\r\n            \"humidity\": 65,\r\n            \"pressure\": 1002.3,\r\n            \"zone\": \"redmond/1\",\r\n            \"marker\": {\r\n                \"red\": true,\r\n                \"blue\": 50,\r\n                \"green\": \"on\"\r\n            }\r\n        }\r\n    },\r\n    {\r\n        \"id\": \"d06\",\r\n        \"type\": \"Device\",\r\n        \"deviceId\": \"device06\",\r\n        \"name\": \"Device 06\",\r\n        \"blocked\": false,\r\n        \"simulated\": true,\r\n        \"data\": {\r\n            \"temp\": 51.1,\r\n            \"humidity\": 70,\r\n            \"pressure\": 1001.8,\r\n            \"zone\": \"redmond/2\",\r\n            \"marker\": {\r\n                \"red\": false,\r\n                \"blue\": 50,\r\n                \"green\": \"off\"\r\n            }\r\n        }\r\n    },\r\n    {\r\n        \"id\": \"d07\",\r\n        \"type\": \"Device\",\r\n        \"deviceId\": \"device07\",\r\n        \"name\": \"Device 07\",\r\n        \"blocked\": false,\r\n        \"simulated\": false,\r\n        \"data\": {\r\n            \"temp\": 45,\r\n            \"humidity\": 75,\r\n            \"pressure\": 1002.5,\r\n            \"zone\": \"redmond/1\",\r\n            \"marker\": {\r\n                \"red\": true,\r\n                \"blue\": 51,\r\n                \"green\": \"on\"\r\n            }\r\n        }\r\n    },\r\n    {\r\n        \"id\": \"d08\",\r\n        \"type\": \"Device\",\r\n        \"deviceId\": \"device08\",\r\n        \"name\": \"Device 08\",\r\n        \"blocked\": true,\r\n        \"simulated\": false,\r\n        \"data\": {\r\n            \"temp\": 51.12,\r\n            \"humidity\": 62,\r\n            \"pressure\": 1002.33,\r\n            \"zone\": \"redmond/1\",\r\n            \"marker\": {\r\n                \"red\": true,\r\n                \"blue\": 50,\r\n                \"green\": \"off\"\r\n            }\r\n        }\r\n    },\r\n    {\r\n        \"id\": \"d09\",\r\n        \"type\": \"Device\",\r\n        \"deviceId\": \"device09\",\r\n        \"name\": \"Device 09\",\r\n        \"blocked\": false,\r\n        \"simulated\": true,\r\n        \"data\": {\r\n            \"temp\": 51.5,\r\n            \"humidity\": 70,\r\n            \"pressure\": 1000.8,\r\n            \"zone\": \"redmond/2\",\r\n            \"marker\": {\r\n                \"red\": false,\r\n                \"blue\": 50,\r\n                \"green\": \"off\"\r\n            }\r\n        }\r\n    },\r\n    {\r\n        \"id\": \"d10\",\r\n        \"type\": \"Device\",\r\n        \"deviceId\": \"device10\",\r\n        \"name\": \"Device 10\",\r\n        \"blocked\": false,\r\n        \"simulated\": false,\r\n        \"data\": {\r\n            \"temp\": 52,\r\n            \"humidity\": 77,\r\n            \"pressure\": 1002.9,\r\n            \"zone\": \"bellevue/1\",\r\n            \"marker\": {\r\n                \"red\": false,\r\n                \"blue\": 51,\r\n                \"green\": \"on\"\r\n            }\r\n        }\r\n    },\r\n    {\r\n        \"id\": \"d11\",\r\n        \"type\": \"Device\",\r\n        \"deviceId\": \"device11\",\r\n        \"name\": \"Device 11\",\r\n        \"blocked\": false,\r\n        \"simulated\": false,\r\n        \"data\": {\r\n            \"temp\": 50,\r\n            \"humidity\": 68,\r\n            \"pressure\": 1012.3,\r\n            \"zone\": \"bellevue/1\",\r\n            \"marker\": {\r\n                \"red\": false,\r\n                \"blue\": 49,\r\n                \"green\": \"on\"\r\n            }\r\n        }\r\n    },\r\n    {\r\n        \"id\": \"d12\",\r\n        \"type\": \"Device\",\r\n        \"deviceId\": \"device12\",\r\n        \"name\": \"Device 12\",\r\n        \"blocked\": false,\r\n        \"simulated\": true,\r\n        \"data\": {\r\n            \"temp\": 53.1,\r\n            \"humidity\": 70,\r\n            \"pressure\": 1002.8,\r\n            \"zone\": \"bellevue/2\",\r\n            \"marker\": {\r\n                \"red\": false,\r\n                \"blue\": 50,\r\n                \"green\": \"off\"\r\n            }\r\n        }\r\n    }\r\n]"
+					"raw": "{\n    \"partitionId\": \"all\",\n    \"data\": [\n        {\n            \"id\": \"d01\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device01\",\n            \"name\": \"Device 01\",\n            \"blocked\": false,\n            \"simulated\": false,\n            \"data\": {\n                \"temp\": 50,\n                \"humidity\": 70,\n                \"pressure\": 1002.1,\n                \"zone\": \"seattle/1\",\n                \"marker\": {\n                    \"red\": true,\n                    \"blue\": 51,\n                    \"green\": \"on\"\n                }\n            }\n        },\n        {\n            \"id\": \"d02\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device02\",\n            \"name\": \"Device 02\",\n            \"blocked\": false,\n            \"simulated\": false,\n            \"data\": {\n                \"temp\": 51,\n                \"humidity\": 65,\n                \"pressure\": 1002.3,\n                \"zone\": \"seattle/1\",\n                \"marker\": {\n                    \"red\": true,\n                    \"blue\": 50,\n                    \"green\": \"on\"\n                }\n            }\n        },\n        {\n            \"id\": \"d03\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device03\",\n            \"name\": \"Device 03\",\n            \"blocked\": false,\n            \"simulated\": true,\n            \"data\": {\n                \"temp\": 51.1,\n                \"humidity\": 70,\n                \"pressure\": 1001.8,\n                \"zone\": \"seattle/2\",\n                \"marker\": {\n                    \"red\": false,\n                    \"blue\": 50,\n                    \"green\": \"off\"\n                }\n            }\n        },\n        {\n            \"id\": \"d04\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device04\",\n            \"name\": \"Device 04\",\n            \"blocked\": false,\n            \"simulated\": false,\n            \"data\": {\n                \"temp\": 50,\n                \"humidity\": 70,\n                \"pressure\": 1002.1,\n                \"zone\": \"redmond/1\",\n                \"marker\": {\n                    \"red\": true,\n                    \"blue\": 51,\n                    \"green\": \"on\"\n                }\n            }\n        },\n        {\n            \"id\": \"d05\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device05\",\n            \"name\": \"Device 05\",\n            \"blocked\": false,\n            \"simulated\": false,\n            \"data\": {\n                \"temp\": 51,\n                \"humidity\": 65,\n                \"pressure\": 1002.3,\n                \"zone\": \"redmond/1\",\n                \"marker\": {\n                    \"red\": true,\n                    \"blue\": 50,\n                    \"green\": \"on\"\n                }\n            }\n        },\n        {\n            \"id\": \"d06\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device06\",\n            \"name\": \"Device 06\",\n            \"blocked\": false,\n            \"simulated\": true,\n            \"data\": {\n                \"temp\": 51.1,\n                \"humidity\": 70,\n                \"pressure\": 1001.8,\n                \"zone\": \"redmond/2\",\n                \"marker\": {\n                    \"red\": false,\n                    \"blue\": 50,\n                    \"green\": \"off\"\n                }\n            }\n        },\n        {\n            \"id\": \"d07\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device07\",\n            \"name\": \"Device 07\",\n            \"blocked\": false,\n            \"simulated\": false,\n            \"data\": {\n                \"temp\": 45,\n                \"humidity\": 75,\n                \"pressure\": 1002.5,\n                \"zone\": \"redmond/1\",\n                \"marker\": {\n                    \"red\": true,\n                    \"blue\": 51,\n                    \"green\": \"on\"\n                }\n            }\n        },\n        {\n            \"id\": \"d08\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device08\",\n            \"name\": \"Device 08\",\n            \"blocked\": true,\n            \"simulated\": false,\n            \"data\": {\n                \"temp\": 51.12,\n                \"humidity\": 62,\n                \"pressure\": 1002.33,\n                \"zone\": \"redmond/1\",\n                \"marker\": {\n                    \"red\": true,\n                    \"blue\": 50,\n                    \"green\": \"off\"\n                }\n            }\n        },\n        {\n            \"id\": \"d09\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device09\",\n            \"name\": \"Device 09\",\n            \"blocked\": false,\n            \"simulated\": true,\n            \"data\": {\n                \"temp\": 51.5,\n                \"humidity\": 70,\n                \"pressure\": 1000.8,\n                \"zone\": \"redmond/2\",\n                \"marker\": {\n                    \"red\": false,\n                    \"blue\": 50,\n                    \"green\": \"off\"\n                }\n            }\n        },\n        {\n            \"id\": \"d10\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device10\",\n            \"name\": \"Device 10\",\n            \"blocked\": false,\n            \"simulated\": false,\n            \"data\": {\n                \"temp\": 52,\n                \"humidity\": 77,\n                \"pressure\": 1002.9,\n                \"zone\": \"bellevue/1\",\n                \"marker\": {\n                    \"red\": false,\n                    \"blue\": 51,\n                    \"green\": \"on\"\n                }\n            }\n        },\n        {\n            \"id\": \"d11\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device11\",\n            \"name\": \"Device 11\",\n            \"blocked\": false,\n            \"simulated\": false,\n            \"data\": {\n                \"temp\": 50,\n                \"humidity\": 68,\n                \"pressure\": 1012.3,\n                \"zone\": \"bellevue/1\",\n                \"marker\": {\n                    \"red\": false,\n                    \"blue\": 49,\n                    \"green\": \"on\"\n                }\n            }\n        },\n        {\n            \"id\": \"d12\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device12\",\n            \"name\": \"Device 12\",\n            \"blocked\": false,\n            \"simulated\": true,\n            \"data\": {\n                \"temp\": 53.1,\n                \"humidity\": 70,\n                \"pressure\": 1002.8,\n                \"zone\": \"bellevue/2\",\n                \"marker\": {\n                    \"red\": false,\n                    \"blue\": 50,\n                    \"green\": \"off\"\n                }\n            }\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
 				},
 				"url": {
 					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}?strict=true",
@@ -170,7 +175,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/d01?level=9",
+					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/d01?level=3",
 					"protocol": "http",
 					"host": [
 						"{{host}}"
@@ -185,7 +190,7 @@
 					"query": [
 						{
 							"key": "level",
-							"value": "9"
+							"value": "3"
 						}
 					]
 				},
@@ -270,7 +275,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"id\": \"d02\",\n    \"data\": {\n        \"temp\": 52.3,\n        \"marker\": {\n            \"green\": \"on\"\n        }\n    }\n}"
+					"raw": "{\n\t\"partitionId\" : \"d02\",\n    \"data\": {\n        \"id\": \"d02\",\n        \"data\": {\n            \"temp\": 52.3,\n            \"marker\": {\n                \"green\": \"on\"\n            }\n        }\n    }\n}"
 				},
 				"url": {
 					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/json",
@@ -355,9 +360,16 @@
 		},
 		{
 			"name": "Get Device  2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
 				"url": {
 					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/d02?level=9",
 					"protocol": "http",
@@ -459,7 +471,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"Filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"Device\"\n        }\n    }\n}"
+					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"Device\"\n        }\n    }\n}"
 				},
 				"url": {
 					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query?level=2",
@@ -575,7 +587,7 @@
 					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"Device\"\n        },\n        \"simulated\": {\n            \"op\": \"eq\",\n            \"value\": false\n        }\n    }\n}"
 				},
 				"url": {
-					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query?level=9",
+					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query?level=3",
 					"protocol": "http",
 					"host": [
 						"{{host}}"
@@ -590,7 +602,7 @@
 					"query": [
 						{
 							"key": "level",
-							"value": "9"
+							"value": "3"
 						}
 					]
 				}
@@ -654,10 +666,10 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"Device\"\n        }\n    },\n    \"outgoing\": [\n        {\n            \"path\": \"data\",\n            \"target\": {\n                \"filter\": {\n                    \"temp\": {\n                        \"op\": \"gt\",\n                        \"value\": 51\n                    }\n                }\n            }\n        }\n    ]\n}"
+					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"Device\"\n        }\n    },\n    \"outgoing\": [\n        {\n            \"path\": \"data\",\n            \"target\": {\n                \"filter\": {\n                    \"temp\": {\n                        \"op\": \"gt\",\n                        \"value\": 51.1\n                    },\n                    \"zone\" : {\n                    \t\"op\" : \"contains\",\n                    \t\"value\" : \"redmond\"\n                    }\n                }\n            }\n        }\n    ]\n}"
 				},
 				"url": {
-					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query?level=9",
+					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query?level=3",
 					"protocol": "http",
 					"host": [
 						"{{host}}"
@@ -672,7 +684,7 @@
 					"query": [
 						{
 							"key": "level",
-							"value": "9"
+							"value": "3"
 						}
 					]
 				}
@@ -723,7 +735,7 @@
 			]
 		},
 		{
-			"name": "Nested Complex Query by type=Device, object path=data.marker.green=\"off\"",
+			"name": "Nested Complex Query by type=Device AND PATH data.marker.green=\"off\"",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -736,10 +748,10 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"Device\"\n        }\n    },\n    \"outgoing\": [\n        {\n            \"path\": \"data#marker\",\n            \"target\": {\n                \"filter\": {\n                    \"green\": {\n                        \"op\": \"eq\",\n                        \"value\": \"off\"\n                    }\n                }\n            }\n        }\n    ]\n}"
+					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"Device\"\n        }\n    },\n    \"outgoing\": [\n        {\n            \"path\": \"data/marker\",\n            \"target\": {\n                \"filter\": {\n                    \"green\": {\n                        \"op\": \"eq\",\n                        \"value\": \"off\"\n                    }\n                }\n            }\n        }\n    ]\n}"
 				},
 				"url": {
-					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query?level=9",
+					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query?level=3",
 					"protocol": "http",
 					"host": [
 						"{{host}}"
@@ -754,7 +766,7 @@
 					"query": [
 						{
 							"key": "level",
-							"value": "9"
+							"value": "3"
 						}
 					]
 				}
@@ -818,7 +830,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"Device\"\n        }\n    },\n    \"outgoing\": [\n        {\n            \"path\": \"data#marker\",\n            \"target\": {\n                \"filter\": {\n                    \"green\": {\n                        \"op\": \"eq\",\n                        \"value\": \"off\"\n                    },\n                    \"blue\" : {\n                    \t\"op\" : \"gt\",\n                    \t\"value\" : 40\n                    }\n                }\n            }\n        },\n        {\n            \"path\": \"data\",\n            \"target\": {\n                \"filter\": {\n                    \"temp\": {\n                        \"op\": \"gt\",\n                        \"value\": 52\n                    }\n                }\n            }\n        }\n    ]\n}"
+					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"Device\"\n        }\n    },\n    \"outgoing\": [\n        {\n            \"path\": \"data/marker\",\n            \"target\": {\n                \"filter\": {\n                    \"green\": {\n                        \"op\": \"eq\",\n                        \"value\": \"off\"\n                    },\n                    \"blue\" : {\n                    \t\"op\" : \"gt\",\n                    \t\"value\" : 40\n                    }\n                }\n            }\n        },\n        {\n            \"path\": \"data\",\n            \"target\": {\n                \"filter\": {\n                    \"temp\": {\n                        \"op\": \"gt\",\n                        \"value\": 52\n                    }\n                }\n            }\n        }\n    ]\n}"
 				},
 				"url": {
 					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query?level=9",
@@ -918,6 +930,103 @@
 			]
 		},
 		{
+			"name": "Delete Device ",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"partitionId\": \"d01\",\n    \"data\": {\n        \"id\": \"d01\",\n        \"blocked\": false,\n        \"data\": {\n            \"id\": \"d01#data\",\n            \"humidity\": 70,\n            \"marker\": {\n                \"id\": \"d01#data#marker\",\n                \"blue\": 51,\n                \"green\": \"on\",\n                \"red\": true\n            },\n            \"pressure\": 1002.1,\n            \"temp\": 50,\n            \"zone\": \"seattle/1\"\n        },\n        \"deviceId\": \"device01\",\n        \"name\": \"Device 01\",\n        \"simulated\": false,\n        \"type\": \"Device\"\n    }\n}"
+				},
+				"url": {
+					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/subject",
+					"protocol": "http",
+					"host": [
+						"{{host}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"api",
+						"store",
+						"{{appId}}",
+						"subject"
+					]
+				},
+				"description": "Delete a device"
+			},
+			"response": [
+				{
+					"name": "Get Device ",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/d01?level=9",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"api",
+								"store",
+								"{{appId}}",
+								"d01"
+							],
+							"query": [
+								{
+									"key": "level",
+									"value": "9"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 11 Sep 2019 05:51:13 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "x-response-time",
+							"value": "19"
+						},
+						{
+							"key": "x-cpus",
+							"value": "4"
+						},
+						{
+							"key": "x-working-set",
+							"value": "131"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"d01\",\n    \"blocked\": false,\n    \"data\": {\n        \"id\": \"d01#data\",\n        \"humidity\": 70,\n        \"marker\": {\n            \"id\": \"d01#data#marker\",\n            \"blue\": 51,\n            \"green\": \"on\",\n            \"red\": true\n        },\n        \"pressure\": 1002.1,\n        \"temp\": 50,\n        \"zone\": \"seattle/1\"\n    },\n    \"deviceId\": \"device01\",\n    \"name\": \"Device 01\",\n    \"simulated\": false,\n    \"type\": \"Device\"\n}"
+				}
+			]
+		},
+		{
 			"name": "Large data ingestion",
 			"event": [
 				{
@@ -943,12 +1052,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"url\" : \"https://gist.githubusercontent.com/angshuman/ea2b02a6d69066c1931861ffeb33eb88/raw/fbc092528fdc2bc3acb3089ae8c7961d850165b4/region_6k.json\"\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
+					"raw": "{\n    \"partitionId\": \"all\",\n    \"data\": {\n        \"url\": \"https://gist.githubusercontent.com/angshuman/ea2b02a6d69066c1931861ffeb33eb88/raw/fbc092528fdc2bc3acb3089ae8c7961d850165b4/region_6k.json\"\n    }\n}"
 				},
 				"url": {
 					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/ingest",
@@ -1132,7 +1236,7 @@
 					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"zone\"\n        }\n    }\n}"
 				},
 				"url": {
-					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query?level=2",
+					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query",
 					"protocol": "http",
 					"host": [
 						"{{host}}"
@@ -1143,12 +1247,6 @@
 						"store",
 						"{{appId}}",
 						"query"
-					],
-					"query": [
-						{
-							"key": "level",
-							"value": "2"
-						}
 					]
 				}
 			},
@@ -1242,7 +1340,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"building\"\n        }\n    },\n    \"outgoing\": [\n        {\n            \"path\": \"floors#rooms#sensors#marker\",\n            \"target\": {\n                \"filter\": {\n                    \"green\": {\n                        \"op\": \"gt\",\n                        \"value\": 9.98\n                    }\n                }\n            }\n        }\n    ]\n}"
+					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"building\"\n        }\n    },\n    \"outgoing\": [\n        {\n            \"path\": \"floors#rooms#sensors#marker\",\n            \"target\": {\n                \"filter\": {\n                    \"green\": {\n                        \"op\": \"ge\",\n                        \"value\": 9.98\n                    }\n                }\n            }\n        }\n    ]\n}"
 				},
 				"url": {
 					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query",
@@ -1336,7 +1434,7 @@
 			]
 		},
 		{
-			"name": "Query outgoing by id",
+			"name": "Query outgoing by id (find building with a sensor id)",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -1349,15 +1447,10 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"building\"\n        }\n    },\n    \"outgoing\": [\n        {\n            \"path\": \"floors#rooms#sensors\",\n            \"target\": {\n            \t\"id\" : \"vBw4hOUbV\"\n            }\n        }\n    ]\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
+					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"building\"\n        }\n    },\n    \"outgoing\": [\n        {\n            \"path\": \"floors/rooms/sensors\",\n            \"target\": {\n            \t\"id\" : \"vBw4hOUbV\"\n            }\n        }\n    ]\n}"
 				},
 				"url": {
-					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query?level=3",
+					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query",
 					"protocol": "http",
 					"host": [
 						"{{host}}"
@@ -1368,12 +1461,6 @@
 						"store",
 						"{{appId}}",
 						"query"
-					],
-					"query": [
-						{
-							"key": "level",
-							"value": "3"
-						}
 					]
 				}
 			},
@@ -1454,28 +1541,23 @@
 			]
 		},
 		{
-			"name": "Get buildings",
+			"name": "Query outgoing by id - any path *",
 			"request": {
 				"method": "POST",
 				"header": [
 					{
 						"key": "Content-Type",
 						"name": "Content-Type",
-						"value": "application/json",
-						"type": "text"
+						"type": "text",
+						"value": "application/json"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"building\"\n        }\n    },\n    \"outgoing\": [\n        {\n            \"path\": \"floors#rooms#sensors\",\n            \"target\": {\n            \t\"id\" : \"vBw4hOUbV\"\n            }\n        }\n    ]\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
+					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"building\"\n        }\n    },\n    \"outgoing\": [\n        {\n            \"path\": \"*\",\n            \"level\" : 4,\n            \"target\": {\n            \t\"id\" : \"vBw4hOUbV\"\n            }\n        }\n    ]\n}"
 				},
 				"url": {
-					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query?level=3",
+					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query",
 					"protocol": "http",
 					"host": [
 						"{{host}}"
@@ -1486,12 +1568,6 @@
 						"store",
 						"{{appId}}",
 						"query"
-					],
-					"query": [
-						{
-							"key": "level",
-							"value": "3"
-						}
 					]
 				}
 			},
@@ -1585,7 +1661,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"id\": \"campus01\",\r\n    \"name\" : \"Campus One\",\r\n    \"type\": \"campus\",\r\n    \"buildings\": [\r\n        {\r\n            \"id\": \"09CBmKHVuW5\"\r\n        },\r\n        {\r\n            \"id\": \"14se1Rzd-59\"\r\n        },\r\n        {\r\n            \"id\": \"3mSPwERPaN-\"\r\n        },\r\n        {\r\n            \"id\": \"5E1XfdnWmJ\"\r\n        }\r\n    ]\r\n}"
+					"raw": "{\n    \"partitionId\": \"campus01\",\n    \"data\": {\n        \"id\": \"campus01\",\n        \"name\": \"Campus One\",\n        \"type\": \"campus\",\n        \"buildings\": [\n            {\n                \"id\": \"09CBmKHVuW5\"\n            },\n            {\n                \"id\": \"14se1Rzd-59\"\n            },\n            {\n                \"id\": \"3mSPwERPaN-\"\n            },\n            {\n                \"id\": \"5E1XfdnWmJ\"\n            }\n        ]\n    }\n}"
 				},
 				"url": {
 					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/json",
@@ -1685,7 +1761,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"id\": \"d02\",\n    \"data\": {\n        \"temp\": 52.3,\n        \"marker\": {\n            \"green\": \"on\"\n        }\n    }\n}"
+					"raw": ""
 				},
 				"url": {
 					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/campus01?level=2&expand=buildings",
@@ -1792,7 +1868,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"remove\": {\r\n        \"id\": \"campus01\",\r\n        \"buildings\": [\r\n            {\r\n                \"id\": \"09CBmKHVuW5\"\r\n            }\r\n        ]\r\n    },\r\n    \"add\": {\r\n        \"id\": \"campus01\",\r\n        \"buildings\": [\r\n            {\r\n                \"id\": \"HH2hXMWyrsw\"\r\n            }\r\n        ]\r\n    }\r\n}"
+					"raw": "{\n    \"partitionId\": \"campus01\",\n    \"data\": {\n        \"remove\": {\n            \"id\": \"campus01\",\n            \"buildings\": [\n                {\n                    \"id\": \"09CBmKHVuW5\"\n                }\n            ]\n        },\n        \"add\": {\n            \"id\": \"campus01\",\n            \"buildings\": [\n                {\n                    \"id\": \"HH2hXMWyrsw\"\n                }\n            ]\n        }\n    }\n}"
 				},
 				"url": {
 					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/triple",
@@ -1986,6 +2062,113 @@
 			]
 		},
 		{
+			"name": "Query outgoing by id (find campus with a sensor id)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"campus\"\n        }\n    },\n    \"outgoing\": [\n        {\n            \"path\": \"buildings/floors/rooms/sensors\",\n            \"target\": {\n            \t\"id\" : \"5F97YfvSTA\"\n            }\n        }\n    ]\n}"
+				},
+				"url": {
+					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query",
+					"protocol": "http",
+					"host": [
+						"{{host}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"api",
+						"store",
+						"{{appId}}",
+						"query"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Query by type=Device",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"Device\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query?level=9",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"api",
+								"store",
+								"{{appId}}",
+								"query"
+							],
+							"query": [
+								{
+									"key": "level",
+									"value": "9"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 11 Sep 2019 05:51:46 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "x-response-time",
+							"value": "74"
+						},
+						{
+							"key": "x-cpus",
+							"value": "4"
+						},
+						{
+							"key": "x-working-set",
+							"value": "133"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"values\": [\n        {\n            \"id\": \"d01\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d01#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d01#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.1,\n                \"temp\": 50,\n                \"zone\": \"seattle/1\"\n            },\n            \"deviceId\": \"device01\",\n            \"name\": \"Device 01\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d02\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d02#data\",\n                \"humidity\": 65,\n                \"marker\": {\n                    \"id\": \"d02#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.3,\n                \"temp\": 52.5,\n                \"zone\": \"seattle/1\"\n            },\n            \"deviceId\": \"device02\",\n            \"name\": \"Device 02\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d03\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d03#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d03#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1001.8,\n                \"temp\": 51.1,\n                \"zone\": \"seattle/2\"\n            },\n            \"deviceId\": \"device03\",\n            \"name\": \"Device 03\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d04\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d04#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d04#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.1,\n                \"temp\": 50,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device04\",\n            \"name\": \"Device 04\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d05\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d05#data\",\n                \"humidity\": 65,\n                \"marker\": {\n                    \"id\": \"d05#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.3,\n                \"temp\": 51,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device05\",\n            \"name\": \"Device 05\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d06\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d06#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d06#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1001.8,\n                \"temp\": 51.1,\n                \"zone\": \"redmond/2\"\n            },\n            \"deviceId\": \"device06\",\n            \"name\": \"Device 06\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d07\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d07#data\",\n                \"humidity\": 75,\n                \"marker\": {\n                    \"id\": \"d07#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.5,\n                \"temp\": 45,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device07\",\n            \"name\": \"Device 07\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d08\",\n            \"blocked\": true,\n            \"data\": {\n                \"id\": \"d08#data\",\n                \"humidity\": 62,\n                \"marker\": {\n                    \"id\": \"d08#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.33,\n                \"temp\": 51.12,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device08\",\n            \"name\": \"Device 08\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d09\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d09#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d09#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1000.8,\n                \"temp\": 51.5,\n                \"zone\": \"redmond/2\"\n            },\n            \"deviceId\": \"device09\",\n            \"name\": \"Device 09\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d10\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d10#data\",\n                \"humidity\": 77,\n                \"marker\": {\n                    \"id\": \"d10#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": false\n                },\n                \"pressure\": 1002.9,\n                \"temp\": 52,\n                \"zone\": \"bellevue/1\"\n            },\n            \"deviceId\": \"device10\",\n            \"name\": \"Device 10\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d11\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d11#data\",\n                \"humidity\": 68,\n                \"marker\": {\n                    \"id\": \"d11#data#marker\",\n                    \"blue\": 49,\n                    \"green\": \"on\",\n                    \"red\": false\n                },\n                \"pressure\": 1012.3,\n                \"temp\": 50,\n                \"zone\": \"bellevue/1\"\n            },\n            \"deviceId\": \"device11\",\n            \"name\": \"Device 11\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d12\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d12#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d12#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1002.8,\n                \"temp\": 53.1,\n                \"zone\": \"bellevue/2\"\n            },\n            \"deviceId\": \"device12\",\n            \"name\": \"Device 12\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        }\n    ],\n    \"Continuation\": null\n}"
+				}
+			]
+		},
+		{
 			"name": "Query by incoming - sensors in a building",
 			"request": {
 				"method": "POST",
@@ -1999,15 +2182,10 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"sensor\"\n        }\n    },\n    \"incoming\": [\n        {\n            \"path\": \"floors#rooms#sensors\",\n            \"target\": {\n                \"filter\": {\n                    \"tag\": {\n                        \"op\": \"eq\",\n                        \"value\": \"infallible_mestorf\"\n                    }\n                }\n            }\n        }\n    ]\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
+					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"sensor\"\n        }\n    },\n    \"incoming\": [\n        {\n            \"path\": \"floors/rooms/sensors\",\n            \"target\": {\n                \"filter\": {\n                    \"tag\": {\n                        \"op\": \"eq\",\n                        \"value\": \"infallible_mestorf\"\n                    }\n                }\n            }\n        }\n    ]\n}"
 				},
 				"url": {
-					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query?level=5",
+					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query",
 					"protocol": "http",
 					"host": [
 						"{{host}}"
@@ -2018,12 +2196,220 @@
 						"store",
 						"{{appId}}",
 						"query"
-					],
-					"query": [
-						{
-							"key": "level",
-							"value": "5"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Query by type=Device",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"Device\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query?level=9",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"api",
+								"store",
+								"{{appId}}",
+								"query"
+							],
+							"query": [
+								{
+									"key": "level",
+									"value": "9"
+								}
+							]
 						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 11 Sep 2019 05:51:46 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "x-response-time",
+							"value": "74"
+						},
+						{
+							"key": "x-cpus",
+							"value": "4"
+						},
+						{
+							"key": "x-working-set",
+							"value": "133"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"values\": [\n        {\n            \"id\": \"d01\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d01#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d01#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.1,\n                \"temp\": 50,\n                \"zone\": \"seattle/1\"\n            },\n            \"deviceId\": \"device01\",\n            \"name\": \"Device 01\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d02\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d02#data\",\n                \"humidity\": 65,\n                \"marker\": {\n                    \"id\": \"d02#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.3,\n                \"temp\": 52.5,\n                \"zone\": \"seattle/1\"\n            },\n            \"deviceId\": \"device02\",\n            \"name\": \"Device 02\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d03\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d03#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d03#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1001.8,\n                \"temp\": 51.1,\n                \"zone\": \"seattle/2\"\n            },\n            \"deviceId\": \"device03\",\n            \"name\": \"Device 03\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d04\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d04#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d04#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.1,\n                \"temp\": 50,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device04\",\n            \"name\": \"Device 04\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d05\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d05#data\",\n                \"humidity\": 65,\n                \"marker\": {\n                    \"id\": \"d05#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.3,\n                \"temp\": 51,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device05\",\n            \"name\": \"Device 05\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d06\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d06#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d06#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1001.8,\n                \"temp\": 51.1,\n                \"zone\": \"redmond/2\"\n            },\n            \"deviceId\": \"device06\",\n            \"name\": \"Device 06\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d07\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d07#data\",\n                \"humidity\": 75,\n                \"marker\": {\n                    \"id\": \"d07#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.5,\n                \"temp\": 45,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device07\",\n            \"name\": \"Device 07\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d08\",\n            \"blocked\": true,\n            \"data\": {\n                \"id\": \"d08#data\",\n                \"humidity\": 62,\n                \"marker\": {\n                    \"id\": \"d08#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.33,\n                \"temp\": 51.12,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device08\",\n            \"name\": \"Device 08\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d09\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d09#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d09#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1000.8,\n                \"temp\": 51.5,\n                \"zone\": \"redmond/2\"\n            },\n            \"deviceId\": \"device09\",\n            \"name\": \"Device 09\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d10\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d10#data\",\n                \"humidity\": 77,\n                \"marker\": {\n                    \"id\": \"d10#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": false\n                },\n                \"pressure\": 1002.9,\n                \"temp\": 52,\n                \"zone\": \"bellevue/1\"\n            },\n            \"deviceId\": \"device10\",\n            \"name\": \"Device 10\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d11\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d11#data\",\n                \"humidity\": 68,\n                \"marker\": {\n                    \"id\": \"d11#data#marker\",\n                    \"blue\": 49,\n                    \"green\": \"on\",\n                    \"red\": false\n                },\n                \"pressure\": 1012.3,\n                \"temp\": 50,\n                \"zone\": \"bellevue/1\"\n            },\n            \"deviceId\": \"device11\",\n            \"name\": \"Device 11\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d12\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d12#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d12#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1002.8,\n                \"temp\": 53.1,\n                \"zone\": \"bellevue/2\"\n            },\n            \"deviceId\": \"device12\",\n            \"name\": \"Device 12\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        }\n    ],\n    \"Continuation\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Query by incoming - sensors in a campus",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"sensor\"\n        }\n    },\n    \"incoming\": [\n        {\n            \"path\": \"buildings/floors/rooms/sensors\",\n            \"target\": {\n            \t\"id\" : \"campus01\"\n            }\n        }\n    ]\n}"
+				},
+				"url": {
+					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query",
+					"protocol": "http",
+					"host": [
+						"{{host}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"api",
+						"store",
+						"{{appId}}",
+						"query"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Query by type=Device",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"Device\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query?level=9",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"api",
+								"store",
+								"{{appId}}",
+								"query"
+							],
+							"query": [
+								{
+									"key": "level",
+									"value": "9"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 11 Sep 2019 05:51:46 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "x-response-time",
+							"value": "74"
+						},
+						{
+							"key": "x-cpus",
+							"value": "4"
+						},
+						{
+							"key": "x-working-set",
+							"value": "133"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"values\": [\n        {\n            \"id\": \"d01\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d01#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d01#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.1,\n                \"temp\": 50,\n                \"zone\": \"seattle/1\"\n            },\n            \"deviceId\": \"device01\",\n            \"name\": \"Device 01\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d02\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d02#data\",\n                \"humidity\": 65,\n                \"marker\": {\n                    \"id\": \"d02#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.3,\n                \"temp\": 52.5,\n                \"zone\": \"seattle/1\"\n            },\n            \"deviceId\": \"device02\",\n            \"name\": \"Device 02\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d03\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d03#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d03#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1001.8,\n                \"temp\": 51.1,\n                \"zone\": \"seattle/2\"\n            },\n            \"deviceId\": \"device03\",\n            \"name\": \"Device 03\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d04\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d04#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d04#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.1,\n                \"temp\": 50,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device04\",\n            \"name\": \"Device 04\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d05\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d05#data\",\n                \"humidity\": 65,\n                \"marker\": {\n                    \"id\": \"d05#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.3,\n                \"temp\": 51,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device05\",\n            \"name\": \"Device 05\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d06\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d06#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d06#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1001.8,\n                \"temp\": 51.1,\n                \"zone\": \"redmond/2\"\n            },\n            \"deviceId\": \"device06\",\n            \"name\": \"Device 06\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d07\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d07#data\",\n                \"humidity\": 75,\n                \"marker\": {\n                    \"id\": \"d07#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.5,\n                \"temp\": 45,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device07\",\n            \"name\": \"Device 07\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d08\",\n            \"blocked\": true,\n            \"data\": {\n                \"id\": \"d08#data\",\n                \"humidity\": 62,\n                \"marker\": {\n                    \"id\": \"d08#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.33,\n                \"temp\": 51.12,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device08\",\n            \"name\": \"Device 08\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d09\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d09#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d09#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1000.8,\n                \"temp\": 51.5,\n                \"zone\": \"redmond/2\"\n            },\n            \"deviceId\": \"device09\",\n            \"name\": \"Device 09\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d10\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d10#data\",\n                \"humidity\": 77,\n                \"marker\": {\n                    \"id\": \"d10#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": false\n                },\n                \"pressure\": 1002.9,\n                \"temp\": 52,\n                \"zone\": \"bellevue/1\"\n            },\n            \"deviceId\": \"device10\",\n            \"name\": \"Device 10\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d11\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d11#data\",\n                \"humidity\": 68,\n                \"marker\": {\n                    \"id\": \"d11#data#marker\",\n                    \"blue\": 49,\n                    \"green\": \"on\",\n                    \"red\": false\n                },\n                \"pressure\": 1012.3,\n                \"temp\": 50,\n                \"zone\": \"bellevue/1\"\n            },\n            \"deviceId\": \"device11\",\n            \"name\": \"Device 11\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d12\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d12#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d12#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1002.8,\n                \"temp\": 53.1,\n                \"zone\": \"bellevue/2\"\n            },\n            \"deviceId\": \"device12\",\n            \"name\": \"Device 12\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        }\n    ],\n    \"Continuation\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Query by incoming - sensors in a campus - partial path",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"sensor\"\n        }\n    },\n    \"incoming\": [\n        {\n            \"path\": \"buildings/*/rooms/*\",\n            \"target\": {\n            \t\"id\" : \"campus01\"\n            }\n        }\n    ]\n}"
+				},
+				"url": {
+					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query",
+					"protocol": "http",
+					"host": [
+						"{{host}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"api",
+						"store",
+						"{{appId}}",
+						"query"
 					]
 				}
 			},
@@ -2117,15 +2503,10 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"sensor\"\n        }\n    },\n    \"incoming\": [\n        {\n            \"path\": \"floors#rooms#sensors\",\n            \"target\": {\n            \t\"id\" : \"C_dgEsYYl\"\n            }\n        }\n    ]\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
+					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"sensor\"\n        }\n    },\n    \"incoming\": [\n        {\n            \"path\": \"floors/rooms/sensors\",\n            \"target\": {\n            \t\"id\" : \"C_dgEsYYl\"\n            }\n        }\n    ]\n}"
 				},
 				"url": {
-					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query?level=5",
+					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query",
 					"protocol": "http",
 					"host": [
 						"{{host}}"
@@ -2136,12 +2517,6 @@
 						"store",
 						"{{appId}}",
 						"query"
-					],
-					"query": [
-						{
-							"key": "level",
-							"value": "5"
-						}
 					]
 				}
 			},
@@ -2235,15 +2610,10 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"sensor\"\n        }\n    },\n    \"incoming\": [\n        {\n            \"path\": \"floors#rooms#sensors\",\n            \"target\": {\n            \t\"id\" : \"C_dgEsYYl\"\n            }\n        }\n    ],\n    \"continuation\": {\n         \"s\": \"QyAXIsQ5Ic\",\n        \"p\": \"type\",\n        \"o\": \"sensor\",\n        \"i\": false\n    }\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
+					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"sensor\"\n        }\n    },\n    \"incoming\": [\n        {\n            \"path\": \"floors/rooms/sensors\",\n            \"target\": {\n            \t\"id\" : \"C_dgEsYYl\"\n            }\n        }\n    ],\n    \"continuation\": {\n        \"s\": \"QyAXIsQ5Ic\",\n        \"p\": \"type\",\n        \"o\": \"sensor\",\n        \"i\": false,\n        \"c\" : 0\n    }\n}"
 				},
 				"url": {
-					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query?level=5",
+					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query",
 					"protocol": "http",
 					"host": [
 						"{{host}}"
@@ -2254,12 +2624,6 @@
 						"store",
 						"{{appId}}",
 						"query"
-					],
-					"query": [
-						{
-							"key": "level",
-							"value": "5"
-						}
 					]
 				}
 			},
@@ -2338,6 +2702,818 @@
 					"body": "{\n    \"values\": [\n        {\n            \"id\": \"d01\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d01#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d01#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.1,\n                \"temp\": 50,\n                \"zone\": \"seattle/1\"\n            },\n            \"deviceId\": \"device01\",\n            \"name\": \"Device 01\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d02\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d02#data\",\n                \"humidity\": 65,\n                \"marker\": {\n                    \"id\": \"d02#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.3,\n                \"temp\": 52.5,\n                \"zone\": \"seattle/1\"\n            },\n            \"deviceId\": \"device02\",\n            \"name\": \"Device 02\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d03\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d03#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d03#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1001.8,\n                \"temp\": 51.1,\n                \"zone\": \"seattle/2\"\n            },\n            \"deviceId\": \"device03\",\n            \"name\": \"Device 03\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d04\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d04#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d04#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.1,\n                \"temp\": 50,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device04\",\n            \"name\": \"Device 04\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d05\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d05#data\",\n                \"humidity\": 65,\n                \"marker\": {\n                    \"id\": \"d05#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.3,\n                \"temp\": 51,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device05\",\n            \"name\": \"Device 05\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d06\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d06#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d06#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1001.8,\n                \"temp\": 51.1,\n                \"zone\": \"redmond/2\"\n            },\n            \"deviceId\": \"device06\",\n            \"name\": \"Device 06\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d07\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d07#data\",\n                \"humidity\": 75,\n                \"marker\": {\n                    \"id\": \"d07#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.5,\n                \"temp\": 45,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device07\",\n            \"name\": \"Device 07\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d08\",\n            \"blocked\": true,\n            \"data\": {\n                \"id\": \"d08#data\",\n                \"humidity\": 62,\n                \"marker\": {\n                    \"id\": \"d08#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.33,\n                \"temp\": 51.12,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device08\",\n            \"name\": \"Device 08\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d09\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d09#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d09#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1000.8,\n                \"temp\": 51.5,\n                \"zone\": \"redmond/2\"\n            },\n            \"deviceId\": \"device09\",\n            \"name\": \"Device 09\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d10\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d10#data\",\n                \"humidity\": 77,\n                \"marker\": {\n                    \"id\": \"d10#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": false\n                },\n                \"pressure\": 1002.9,\n                \"temp\": 52,\n                \"zone\": \"bellevue/1\"\n            },\n            \"deviceId\": \"device10\",\n            \"name\": \"Device 10\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d11\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d11#data\",\n                \"humidity\": 68,\n                \"marker\": {\n                    \"id\": \"d11#data#marker\",\n                    \"blue\": 49,\n                    \"green\": \"on\",\n                    \"red\": false\n                },\n                \"pressure\": 1012.3,\n                \"temp\": 50,\n                \"zone\": \"bellevue/1\"\n            },\n            \"deviceId\": \"device11\",\n            \"name\": \"Device 11\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d12\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d12#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d12#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1002.8,\n                \"temp\": 53.1,\n                \"zone\": \"bellevue/2\"\n            },\n            \"deviceId\": \"device12\",\n            \"name\": \"Device 12\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        }\n    ],\n    \"Continuation\": null\n}"
 				}
 			]
+		},
+		{
+			"name": "Create circular relationship",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"partitionId\": \"all\",\n    \"data\": [\n        {\n            \"id\": \"route01\",\n            \"name\": \"Route 1\",\n            \"type\": \"route\",\n            \"buildings\": [\n                {\n                    \"id\": \"09CBmKHVuW5\"\n                },\n                {\n                    \"id\": \"14se1Rzd-59\"\n                }\n            ],\n            \"routes\": {\n                \"id\": \"route02\"\n            }\n        },\n        {\n            \"id\": \"route02\",\n            \"name\": \"Route 2\",\n            \"type\": \"route\",\n            \"routes\": [\n                {\n                    \"id\": \"route01\"\n                }\n            ]\n        }\n    ]\n}"
+				},
+				"url": {
+					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/json",
+					"protocol": "http",
+					"host": [
+						"{{host}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"api",
+						"store",
+						"{{appId}}",
+						"json"
+					]
+				},
+				"description": "Update device with partial data"
+			},
+			"response": [
+				{
+					"name": "Update Device",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": \"d02\",\n    \"data\": {\n        \"temp\": 52.3,\n        \"marker\": {\n            \"green\": \"on\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "http://{{host}}:{{port}}/api/store/{{appId}}",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"api",
+								"store",
+								"{{appId}}"
+							]
+						}
+					},
+					"status": "Accepted",
+					"code": 202,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 11 Sep 2019 05:52:25 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "x-response-time",
+							"value": "34"
+						},
+						{
+							"key": "x-cpus",
+							"value": "4"
+						},
+						{
+							"key": "x-working-set",
+							"value": "135"
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "Get Circular relationship",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/route02?level=3",
+					"protocol": "http",
+					"host": [
+						"{{host}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"api",
+						"store",
+						"{{appId}}",
+						"route02"
+					],
+					"query": [
+						{
+							"key": "level",
+							"value": "3"
+						}
+					]
+				},
+				"description": "Update device with partial data"
+			},
+			"response": [
+				{
+					"name": "Update Device",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": \"d02\",\n    \"data\": {\n        \"temp\": 52.3,\n        \"marker\": {\n            \"green\": \"on\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "http://{{host}}:{{port}}/api/store/{{appId}}",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"api",
+								"store",
+								"{{appId}}"
+							]
+						}
+					},
+					"status": "Accepted",
+					"code": 202,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 11 Sep 2019 05:52:25 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "x-response-time",
+							"value": "34"
+						},
+						{
+							"key": "x-cpus",
+							"value": "4"
+						},
+						{
+							"key": "x-working-set",
+							"value": "135"
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "Query circular graph by id",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"route\"\n        }\n    },\n    \"outgoing\": [\n        {\n            \"path\": \"*\",\n            \"level\" : 16,\n            \"target\": {\n            \t\"id\" : \"GpBTVuCrMNR\"\n            }\n        }\n    ]\n}"
+				},
+				"url": {
+					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query",
+					"protocol": "http",
+					"host": [
+						"{{host}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"api",
+						"store",
+						"{{appId}}",
+						"query"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Query by type=Device",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"Device\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query?level=9",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"api",
+								"store",
+								"{{appId}}",
+								"query"
+							],
+							"query": [
+								{
+									"key": "level",
+									"value": "9"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 11 Sep 2019 05:51:46 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "x-response-time",
+							"value": "74"
+						},
+						{
+							"key": "x-cpus",
+							"value": "4"
+						},
+						{
+							"key": "x-working-set",
+							"value": "133"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"values\": [\n        {\n            \"id\": \"d01\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d01#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d01#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.1,\n                \"temp\": 50,\n                \"zone\": \"seattle/1\"\n            },\n            \"deviceId\": \"device01\",\n            \"name\": \"Device 01\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d02\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d02#data\",\n                \"humidity\": 65,\n                \"marker\": {\n                    \"id\": \"d02#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.3,\n                \"temp\": 52.5,\n                \"zone\": \"seattle/1\"\n            },\n            \"deviceId\": \"device02\",\n            \"name\": \"Device 02\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d03\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d03#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d03#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1001.8,\n                \"temp\": 51.1,\n                \"zone\": \"seattle/2\"\n            },\n            \"deviceId\": \"device03\",\n            \"name\": \"Device 03\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d04\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d04#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d04#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.1,\n                \"temp\": 50,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device04\",\n            \"name\": \"Device 04\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d05\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d05#data\",\n                \"humidity\": 65,\n                \"marker\": {\n                    \"id\": \"d05#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.3,\n                \"temp\": 51,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device05\",\n            \"name\": \"Device 05\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d06\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d06#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d06#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1001.8,\n                \"temp\": 51.1,\n                \"zone\": \"redmond/2\"\n            },\n            \"deviceId\": \"device06\",\n            \"name\": \"Device 06\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d07\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d07#data\",\n                \"humidity\": 75,\n                \"marker\": {\n                    \"id\": \"d07#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.5,\n                \"temp\": 45,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device07\",\n            \"name\": \"Device 07\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d08\",\n            \"blocked\": true,\n            \"data\": {\n                \"id\": \"d08#data\",\n                \"humidity\": 62,\n                \"marker\": {\n                    \"id\": \"d08#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.33,\n                \"temp\": 51.12,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device08\",\n            \"name\": \"Device 08\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d09\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d09#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d09#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1000.8,\n                \"temp\": 51.5,\n                \"zone\": \"redmond/2\"\n            },\n            \"deviceId\": \"device09\",\n            \"name\": \"Device 09\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d10\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d10#data\",\n                \"humidity\": 77,\n                \"marker\": {\n                    \"id\": \"d10#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": false\n                },\n                \"pressure\": 1002.9,\n                \"temp\": 52,\n                \"zone\": \"bellevue/1\"\n            },\n            \"deviceId\": \"device10\",\n            \"name\": \"Device 10\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d11\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d11#data\",\n                \"humidity\": 68,\n                \"marker\": {\n                    \"id\": \"d11#data#marker\",\n                    \"blue\": 49,\n                    \"green\": \"on\",\n                    \"red\": false\n                },\n                \"pressure\": 1012.3,\n                \"temp\": 50,\n                \"zone\": \"bellevue/1\"\n            },\n            \"deviceId\": \"device11\",\n            \"name\": \"Device 11\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d12\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d12#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d12#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1002.8,\n                \"temp\": 53.1,\n                \"zone\": \"bellevue/2\"\n            },\n            \"deviceId\": \"device12\",\n            \"name\": \"Device 12\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        }\n    ],\n    \"Continuation\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Query circular graph - temp > 50",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"route\"\n        }\n    },\n    \"outgoing\": [\n        {\n            \"path\": \"*\",\n            \"level\" : 16,\n            \"target\": {\n            \t\"filter\" : {\n            \t\t\"temperature\" : {\n            \t\t\t\"op\" : \"gt\",\n            \t\t\t\"value\" : 98\n            \t\t}\n            \t}\n            }\n        }\n    ]\n}"
+				},
+				"url": {
+					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query",
+					"protocol": "http",
+					"host": [
+						"{{host}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"api",
+						"store",
+						"{{appId}}",
+						"query"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Query by type=Device",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"Device\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query?level=9",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"api",
+								"store",
+								"{{appId}}",
+								"query"
+							],
+							"query": [
+								{
+									"key": "level",
+									"value": "9"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 11 Sep 2019 05:51:46 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "x-response-time",
+							"value": "74"
+						},
+						{
+							"key": "x-cpus",
+							"value": "4"
+						},
+						{
+							"key": "x-working-set",
+							"value": "133"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"values\": [\n        {\n            \"id\": \"d01\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d01#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d01#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.1,\n                \"temp\": 50,\n                \"zone\": \"seattle/1\"\n            },\n            \"deviceId\": \"device01\",\n            \"name\": \"Device 01\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d02\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d02#data\",\n                \"humidity\": 65,\n                \"marker\": {\n                    \"id\": \"d02#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.3,\n                \"temp\": 52.5,\n                \"zone\": \"seattle/1\"\n            },\n            \"deviceId\": \"device02\",\n            \"name\": \"Device 02\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d03\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d03#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d03#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1001.8,\n                \"temp\": 51.1,\n                \"zone\": \"seattle/2\"\n            },\n            \"deviceId\": \"device03\",\n            \"name\": \"Device 03\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d04\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d04#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d04#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.1,\n                \"temp\": 50,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device04\",\n            \"name\": \"Device 04\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d05\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d05#data\",\n                \"humidity\": 65,\n                \"marker\": {\n                    \"id\": \"d05#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.3,\n                \"temp\": 51,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device05\",\n            \"name\": \"Device 05\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d06\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d06#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d06#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1001.8,\n                \"temp\": 51.1,\n                \"zone\": \"redmond/2\"\n            },\n            \"deviceId\": \"device06\",\n            \"name\": \"Device 06\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d07\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d07#data\",\n                \"humidity\": 75,\n                \"marker\": {\n                    \"id\": \"d07#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.5,\n                \"temp\": 45,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device07\",\n            \"name\": \"Device 07\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d08\",\n            \"blocked\": true,\n            \"data\": {\n                \"id\": \"d08#data\",\n                \"humidity\": 62,\n                \"marker\": {\n                    \"id\": \"d08#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.33,\n                \"temp\": 51.12,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device08\",\n            \"name\": \"Device 08\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d09\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d09#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d09#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1000.8,\n                \"temp\": 51.5,\n                \"zone\": \"redmond/2\"\n            },\n            \"deviceId\": \"device09\",\n            \"name\": \"Device 09\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d10\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d10#data\",\n                \"humidity\": 77,\n                \"marker\": {\n                    \"id\": \"d10#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": false\n                },\n                \"pressure\": 1002.9,\n                \"temp\": 52,\n                \"zone\": \"bellevue/1\"\n            },\n            \"deviceId\": \"device10\",\n            \"name\": \"Device 10\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d11\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d11#data\",\n                \"humidity\": 68,\n                \"marker\": {\n                    \"id\": \"d11#data#marker\",\n                    \"blue\": 49,\n                    \"green\": \"on\",\n                    \"red\": false\n                },\n                \"pressure\": 1012.3,\n                \"temp\": 50,\n                \"zone\": \"bellevue/1\"\n            },\n            \"deviceId\": \"device11\",\n            \"name\": \"Device 11\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d12\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d12#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d12#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1002.8,\n                \"temp\": 53.1,\n                \"zone\": \"bellevue/2\"\n            },\n            \"deviceId\": \"device12\",\n            \"name\": \"Device 12\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        }\n    ],\n    \"Continuation\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Query circular graph - incoming",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"sensor\"\n        }\n    },\n    \"incoming\": [\n        {\n            \"path\": \"*\",\n            \"level\" : 16,\n            \"target\": {\n            \t\"filter\" : {\n            \t\t\"type\" : {\n            \t\t\t\"op\" : \"eq\",\n            \t\t\t\"value\" : \"route\"\n            \t\t},\n            \t\t\"name\" : {\n            \t\t\t\"op\" : \"eq\",\n            \t\t\t\"value\" : \"Route 1\"\n            \t\t}\n            \t}\n            }\n        }\n    ]\n}"
+				},
+				"url": {
+					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query",
+					"protocol": "http",
+					"host": [
+						"{{host}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"api",
+						"store",
+						"{{appId}}",
+						"query"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Query by type=Device",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"Device\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query?level=9",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"api",
+								"store",
+								"{{appId}}",
+								"query"
+							],
+							"query": [
+								{
+									"key": "level",
+									"value": "9"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 11 Sep 2019 05:51:46 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "x-response-time",
+							"value": "74"
+						},
+						{
+							"key": "x-cpus",
+							"value": "4"
+						},
+						{
+							"key": "x-working-set",
+							"value": "133"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"values\": [\n        {\n            \"id\": \"d01\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d01#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d01#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.1,\n                \"temp\": 50,\n                \"zone\": \"seattle/1\"\n            },\n            \"deviceId\": \"device01\",\n            \"name\": \"Device 01\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d02\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d02#data\",\n                \"humidity\": 65,\n                \"marker\": {\n                    \"id\": \"d02#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.3,\n                \"temp\": 52.5,\n                \"zone\": \"seattle/1\"\n            },\n            \"deviceId\": \"device02\",\n            \"name\": \"Device 02\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d03\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d03#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d03#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1001.8,\n                \"temp\": 51.1,\n                \"zone\": \"seattle/2\"\n            },\n            \"deviceId\": \"device03\",\n            \"name\": \"Device 03\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d04\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d04#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d04#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.1,\n                \"temp\": 50,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device04\",\n            \"name\": \"Device 04\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d05\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d05#data\",\n                \"humidity\": 65,\n                \"marker\": {\n                    \"id\": \"d05#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.3,\n                \"temp\": 51,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device05\",\n            \"name\": \"Device 05\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d06\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d06#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d06#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1001.8,\n                \"temp\": 51.1,\n                \"zone\": \"redmond/2\"\n            },\n            \"deviceId\": \"device06\",\n            \"name\": \"Device 06\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d07\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d07#data\",\n                \"humidity\": 75,\n                \"marker\": {\n                    \"id\": \"d07#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.5,\n                \"temp\": 45,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device07\",\n            \"name\": \"Device 07\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d08\",\n            \"blocked\": true,\n            \"data\": {\n                \"id\": \"d08#data\",\n                \"humidity\": 62,\n                \"marker\": {\n                    \"id\": \"d08#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.33,\n                \"temp\": 51.12,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device08\",\n            \"name\": \"Device 08\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d09\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d09#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d09#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1000.8,\n                \"temp\": 51.5,\n                \"zone\": \"redmond/2\"\n            },\n            \"deviceId\": \"device09\",\n            \"name\": \"Device 09\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d10\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d10#data\",\n                \"humidity\": 77,\n                \"marker\": {\n                    \"id\": \"d10#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": false\n                },\n                \"pressure\": 1002.9,\n                \"temp\": 52,\n                \"zone\": \"bellevue/1\"\n            },\n            \"deviceId\": \"device10\",\n            \"name\": \"Device 10\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d11\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d11#data\",\n                \"humidity\": 68,\n                \"marker\": {\n                    \"id\": \"d11#data#marker\",\n                    \"blue\": 49,\n                    \"green\": \"on\",\n                    \"red\": false\n                },\n                \"pressure\": 1012.3,\n                \"temp\": 50,\n                \"zone\": \"bellevue/1\"\n            },\n            \"deviceId\": \"device11\",\n            \"name\": \"Device 11\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d12\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d12#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d12#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1002.8,\n                \"temp\": 53.1,\n                \"zone\": \"bellevue/2\"\n            },\n            \"deviceId\": \"device12\",\n            \"name\": \"Device 12\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        }\n    ],\n    \"Continuation\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Count by type=Device",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"sensor\"\n        }\n    },\n    \"aggregates\" : [\n    \t{\n    \t\t\"type\" : \"count\"\n    \t}\n    ]\n}"
+				},
+				"url": {
+					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query",
+					"protocol": "http",
+					"host": [
+						"{{host}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"api",
+						"store",
+						"{{appId}}",
+						"query"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Query by type=Device",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"Device\"\n        }\n    }\n}"
+						},
+						"url": {
+							"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query?level=9",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"api",
+								"store",
+								"{{appId}}",
+								"query"
+							],
+							"query": [
+								{
+									"key": "level",
+									"value": "9"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 11 Sep 2019 05:51:46 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "x-response-time",
+							"value": "74"
+						},
+						{
+							"key": "x-cpus",
+							"value": "4"
+						},
+						{
+							"key": "x-working-set",
+							"value": "133"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"values\": [\n        {\n            \"id\": \"d01\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d01#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d01#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.1,\n                \"temp\": 50,\n                \"zone\": \"seattle/1\"\n            },\n            \"deviceId\": \"device01\",\n            \"name\": \"Device 01\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d02\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d02#data\",\n                \"humidity\": 65,\n                \"marker\": {\n                    \"id\": \"d02#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.3,\n                \"temp\": 52.5,\n                \"zone\": \"seattle/1\"\n            },\n            \"deviceId\": \"device02\",\n            \"name\": \"Device 02\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d03\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d03#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d03#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1001.8,\n                \"temp\": 51.1,\n                \"zone\": \"seattle/2\"\n            },\n            \"deviceId\": \"device03\",\n            \"name\": \"Device 03\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d04\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d04#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d04#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.1,\n                \"temp\": 50,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device04\",\n            \"name\": \"Device 04\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d05\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d05#data\",\n                \"humidity\": 65,\n                \"marker\": {\n                    \"id\": \"d05#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.3,\n                \"temp\": 51,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device05\",\n            \"name\": \"Device 05\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d06\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d06#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d06#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1001.8,\n                \"temp\": 51.1,\n                \"zone\": \"redmond/2\"\n            },\n            \"deviceId\": \"device06\",\n            \"name\": \"Device 06\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d07\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d07#data\",\n                \"humidity\": 75,\n                \"marker\": {\n                    \"id\": \"d07#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.5,\n                \"temp\": 45,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device07\",\n            \"name\": \"Device 07\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d08\",\n            \"blocked\": true,\n            \"data\": {\n                \"id\": \"d08#data\",\n                \"humidity\": 62,\n                \"marker\": {\n                    \"id\": \"d08#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.33,\n                \"temp\": 51.12,\n                \"zone\": \"redmond/1\"\n            },\n            \"deviceId\": \"device08\",\n            \"name\": \"Device 08\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d09\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d09#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d09#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1000.8,\n                \"temp\": 51.5,\n                \"zone\": \"redmond/2\"\n            },\n            \"deviceId\": \"device09\",\n            \"name\": \"Device 09\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d10\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d10#data\",\n                \"humidity\": 77,\n                \"marker\": {\n                    \"id\": \"d10#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": false\n                },\n                \"pressure\": 1002.9,\n                \"temp\": 52,\n                \"zone\": \"bellevue/1\"\n            },\n            \"deviceId\": \"device10\",\n            \"name\": \"Device 10\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d11\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d11#data\",\n                \"humidity\": 68,\n                \"marker\": {\n                    \"id\": \"d11#data#marker\",\n                    \"blue\": 49,\n                    \"green\": \"on\",\n                    \"red\": false\n                },\n                \"pressure\": 1012.3,\n                \"temp\": 50,\n                \"zone\": \"bellevue/1\"\n            },\n            \"deviceId\": \"device11\",\n            \"name\": \"Device 11\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        },\n        {\n            \"id\": \"d12\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d12#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d12#data#marker\",\n                    \"blue\": 50,\n                    \"green\": \"off\",\n                    \"red\": false\n                },\n                \"pressure\": 1002.8,\n                \"temp\": 53.1,\n                \"zone\": \"bellevue/2\"\n            },\n            \"deviceId\": \"device12\",\n            \"name\": \"Device 12\",\n            \"simulated\": true,\n            \"type\": \"Device\"\n        }\n    ],\n    \"Continuation\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Count sensor by firmware version",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"sensor\"\n        },\n        \"firmware\": {\n            \"op\": \"eq\",\n            \"value\": 0.3\n        }\n    },\n    \"aggregates\" : [\n    \t{\n    \t\t\"type\" : \"count\"\n    \t}\n    ]\n}"
+				},
+				"url": {
+					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query?level=3",
+					"protocol": "http",
+					"host": [
+						"{{host}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"api",
+						"store",
+						"{{appId}}",
+						"query"
+					],
+					"query": [
+						{
+							"key": "level",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Count by type=Device AND PATH data.marker.green=\"off\" Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"sensor\"\n        }\n    },\n    \"incoming\": [\n        {\n            \"path\": \"floors/rooms/sensors\",\n            \"target\": {\n                \"filter\": {\n                    \"tag\": {\n                        \"op\": \"eq\",\n                        \"value\": \"infallible_mestorf\"\n                    }\n                }\n            }\n        }\n    ],\n    \"aggregates\" : [\n\t    {\n\t    \t\"type\" : \"count\"\n\t    }\n    ]\n}"
+				},
+				"url": {
+					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query?level=3",
+					"protocol": "http",
+					"host": [
+						"{{host}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"api",
+						"store",
+						"{{appId}}",
+						"query"
+					],
+					"query": [
+						{
+							"key": "level",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Nested Complex Query by type=Device, object path=data.marker.green=\"off\"",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"Device\"\n        }\n    },\n    \"outgoing\": [\n        {\n            \"path\": \"data#marker\",\n            \"target\": {\n                \"filter\": {\n                    \"green\": {\n                        \"op\": \"eq\",\n                        \"value\": \"off\"\n                    }\n                }\n            }\n        }\n    ]\n}"
+						},
+						"url": {
+							"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query?level=9",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"api",
+								"store",
+								"{{appId}}",
+								"query"
+							],
+							"query": [
+								{
+									"key": "level",
+									"value": "9"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "POST with array",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"partitionId\": \"witharray\",\n    \"data\": {\n        \"id\": \"witharray\",\n        \"values\": [\n            10,\n            20,\n            10,\n            11,\n            29,\n            1\n        ],\n        \"objets\": [\n            {\n                \"id\": \"o3\",\n                \"foo\": \"bar\"\n            },\n            {\n                \"id\": \"o1\",\n                \"foo\": \"baz\"\n            },\n            {\n                \"id\": \"o2\",\n                \"foo\": \"baz\"\n            }\n        ]\n    }\n}"
+				},
+				"url": {
+					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}?strict=true",
+					"protocol": "http",
+					"host": [
+						"{{host}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"api",
+						"store",
+						"{{appId}}"
+					],
+					"query": [
+						{
+							"key": "strict",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET with array",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/witharray",
+					"protocol": "http",
+					"host": [
+						"{{host}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"api",
+						"store",
+						"{{appId}}",
+						"witharray"
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"event": [
@@ -2361,5 +3537,6 @@
 				]
 			}
 		}
-	]
+	],
+	"protocolProfileBehavior": {}
 }
