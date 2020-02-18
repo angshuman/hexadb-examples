@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "4d6dde4e-63f5-4924-9a4d-8f5dff2b3364",
+		"_postman_id": "4547617e-85de-454f-83e6-a9e6748a7cef",
 		"name": "Hexastore",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -77,7 +77,7 @@
 						}
 					},
 					"_postman_previewlanguage": "json",
-					"header": null,
+					"header": [],
 					"cookie": [],
 					"body": "[\n    {\n        \"id\": \"d01\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device01\",\n        \"name\": \"Device 01\",\n        \"blocked\": false,\n        \"simulated\": false,\n        \"data\": {\n            \"temp\": 50,\n            \"humidity\": 70,\n            \"pressure\": 1002.1,\n            \"zone\": \"seattle/1\",\n            \"marker\": {\n                \"red\": true,\n                \"blue\": 51,\n                \"green\": \"on\"\n            }\n        }\n    },\n    {\n        \"id\": \"d02\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device02\",\n        \"name\": \"Device 02\",\n        \"blocked\": false,\n        \"simulated\": false,\n        \"data\": {\n            \"temp\": 51,\n            \"humidity\": 65,\n            \"pressure\": 1002.3,\n            \"zone\": \"seattle/1\",\n            \"marker\": {\n                \"red\": true,\n                \"blue\": 50,\n                \"green\": \"on\"\n            }\n        }\n    },\n    {\n        \"id\": \"d03\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device03\",\n        \"name\": \"Device 03\",\n        \"blocked\": false,\n        \"simulated\": true,\n        \"data\": {\n            \"temp\": 51.1,\n            \"humidity\": 70,\n            \"pressure\": 1001.8,\n            \"zone\": \"seattle/2\",\n            \"marker\": {\n                \"red\": false,\n                \"blue\": 50,\n                \"green\": \"off\"\n            }\n        }\n    },\n    {\n        \"id\": \"d04\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device04\",\n        \"name\": \"Device 04\",\n        \"blocked\": false,\n        \"simulated\": false,\n        \"data\": {\n            \"temp\": 50,\n            \"humidity\": 70,\n            \"pressure\": 1002.1,\n            \"zone\": \"redmond/1\",\n            \"marker\": {\n                \"red\": true,\n                \"blue\": 51,\n                \"green\": \"on\"\n            }\n        }\n    },\n    {\n        \"id\": \"d05\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device05\",\n        \"name\": \"Device 05\",\n        \"blocked\": false,\n        \"simulated\": false,\n        \"data\": {\n            \"temp\": 51,\n            \"humidity\": 65,\n            \"pressure\": 1002.3,\n            \"zone\": \"redmond/1\",\n            \"marker\": {\n                \"red\": true,\n                \"blue\": 50,\n                \"green\": \"on\"\n            }\n        }\n    },\n    {\n        \"id\": \"d06\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device06\",\n        \"name\": \"Device 06\",\n        \"blocked\": false,\n        \"simulated\": true,\n        \"data\": {\n            \"temp\": 51.1,\n            \"humidity\": 70,\n            \"pressure\": 1001.8,\n            \"zone\": \"redmond/2\",\n            \"marker\": {\n                \"red\": false,\n                \"blue\": 50,\n                \"green\": \"off\"\n            }\n        }\n    },\n    {\n        \"id\": \"d07\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device07\",\n        \"name\": \"Device 07\",\n        \"blocked\": false,\n        \"simulated\": false,\n        \"data\": {\n            \"temp\": 45,\n            \"humidity\": 75,\n            \"pressure\": 1002.5,\n            \"zone\": \"redmond/1\",\n            \"marker\": {\n                \"red\": true,\n                \"blue\": 51,\n                \"green\": \"on\"\n            }\n        }\n    },\n    {\n        \"id\": \"d08\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device08\",\n        \"name\": \"Device 08\",\n        \"blocked\": true,\n        \"simulated\": false,\n        \"data\": {\n            \"temp\": 51.12,\n            \"humidity\": 62,\n            \"pressure\": 1002.33,\n            \"zone\": \"redmond/1\",\n            \"marker\": {\n                \"red\": true,\n                \"blue\": 50,\n                \"green\": \"off\"\n            }\n        }\n    },\n    {\n        \"id\": \"d09\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device09\",\n        \"name\": \"Device 09\",\n        \"blocked\": false,\n        \"simulated\": true,\n        \"data\": {\n            \"temp\": 51.5,\n            \"humidity\": 70,\n            \"pressure\": 1000.8,\n            \"zone\": \"redmond/2\",\n            \"marker\": {\n                \"red\": false,\n                \"blue\": 50,\n                \"green\": \"off\"\n            }\n        }\n    },\n    {\n        \"id\": \"d10\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device10\",\n        \"name\": \"Device 10\",\n        \"blocked\": false,\n        \"simulated\": false,\n        \"data\": {\n            \"temp\": 52,\n            \"humidity\": 77,\n            \"pressure\": 1002.9,\n            \"zone\": \"bellevue/1\",\n            \"marker\": {\n                \"red\": false,\n                \"blue\": 51,\n                \"green\": \"on\"\n            }\n        }\n    },\n    {\n        \"id\": \"d11\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device11\",\n        \"name\": \"Device 11\",\n        \"blocked\": false,\n        \"simulated\": false,\n        \"data\": {\n            \"temp\": 50,\n            \"humidity\": 68,\n            \"pressure\": 1012.3,\n            \"zone\": \"bellevue/1\",\n            \"marker\": {\n                \"red\": false,\n                \"blue\": 49,\n                \"green\": \"on\"\n            }\n        }\n    },\n    {\n        \"id\": \"d12\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device12\",\n        \"name\": \"Device 12\",\n        \"blocked\": false,\n        \"simulated\": true,\n        \"data\": {\n            \"temp\": 53.1,\n            \"humidity\": 70,\n            \"pressure\": 1002.8,\n            \"zone\": \"bellevue/2\",\n            \"marker\": {\n                \"red\": false,\n                \"blue\": 50,\n                \"green\": \"off\"\n            }\n        }\n    }\n]"
 				}
@@ -97,7 +97,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"data\": [\n        {\n            \"id\": \"d01\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device01\",\n            \"name\": \"Device 01\",\n            \"blocked\": false,\n            \"simulated\": false,\n            \"data\": {\n                \"temp\": 50,\n                \"humidity\": 70,\n                \"pressure\": 1002.1,\n                \"zone\": \"seattle/1\",\n                \"marker\": {\n                    \"red\": true,\n                    \"blue\": 51,\n                    \"green\": \"on\"\n                }\n            }\n        },\n        {\n            \"id\": \"d02\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device02\",\n            \"name\": \"Device 02\",\n            \"blocked\": false,\n            \"simulated\": false,\n            \"data\": {\n                \"temp\": 51,\n                \"humidity\": 65,\n                \"pressure\": 1002.3,\n                \"zone\": \"seattle/1\",\n                \"marker\": {\n                    \"red\": true,\n                    \"blue\": 50,\n                    \"green\": \"on\"\n                }\n            }\n        },\n        {\n            \"id\": \"d03\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device03\",\n            \"name\": \"Device 03\",\n            \"blocked\": false,\n            \"simulated\": true,\n            \"data\": {\n                \"temp\": 51.1,\n                \"humidity\": 70,\n                \"pressure\": 1001.8,\n                \"zone\": \"seattle/2\",\n                \"marker\": {\n                    \"red\": false,\n                    \"blue\": 50,\n                    \"green\": \"off\"\n                }\n            }\n        },\n        {\n            \"id\": \"d04\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device04\",\n            \"name\": \"Device 04\",\n            \"blocked\": false,\n            \"simulated\": false,\n            \"data\": {\n                \"temp\": 50,\n                \"humidity\": 70,\n                \"pressure\": 1002.1,\n                \"zone\": \"redmond/1\",\n                \"marker\": {\n                    \"red\": true,\n                    \"blue\": 51,\n                    \"green\": \"on\"\n                }\n            }\n        },\n        {\n            \"id\": \"d05\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device05\",\n            \"name\": \"Device 05\",\n            \"blocked\": false,\n            \"simulated\": false,\n            \"data\": {\n                \"temp\": 51,\n                \"humidity\": 65,\n                \"pressure\": 1002.3,\n                \"zone\": \"redmond/1\",\n                \"marker\": {\n                    \"red\": true,\n                    \"blue\": 50,\n                    \"green\": \"on\"\n                }\n            }\n        },\n        {\n            \"id\": \"d06\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device06\",\n            \"name\": \"Device 06\",\n            \"blocked\": false,\n            \"simulated\": true,\n            \"data\": {\n                \"temp\": 51.1,\n                \"humidity\": 70,\n                \"pressure\": 1001.8,\n                \"zone\": \"redmond/2\",\n                \"marker\": {\n                    \"red\": false,\n                    \"blue\": 50,\n                    \"green\": \"off\"\n                }\n            }\n        },\n        {\n            \"id\": \"d07\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device07\",\n            \"name\": \"Device 07\",\n            \"blocked\": false,\n            \"simulated\": false,\n            \"data\": {\n                \"temp\": 45,\n                \"humidity\": 75,\n                \"pressure\": 1002.5,\n                \"zone\": \"redmond/1\",\n                \"marker\": {\n                    \"red\": true,\n                    \"blue\": 51,\n                    \"green\": \"on\"\n                }\n            }\n        },\n        {\n            \"id\": \"d08\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device08\",\n            \"name\": \"Device 08\",\n            \"blocked\": true,\n            \"simulated\": false,\n            \"data\": {\n                \"temp\": 51.12,\n                \"humidity\": 62,\n                \"pressure\": 1002.33,\n                \"zone\": \"redmond/1\",\n                \"marker\": {\n                    \"red\": true,\n                    \"blue\": 50,\n                    \"green\": \"off\"\n                }\n            }\n        },\n        {\n            \"id\": \"d09\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device09\",\n            \"name\": \"Device 09\",\n            \"blocked\": false,\n            \"simulated\": true,\n            \"data\": {\n                \"temp\": 51.5,\n                \"humidity\": 70,\n                \"pressure\": 1000.8,\n                \"zone\": \"redmond/2\",\n                \"marker\": {\n                    \"red\": false,\n                    \"blue\": 50,\n                    \"green\": \"off\"\n                }\n            }\n        },\n        {\n            \"id\": \"d10\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device10\",\n            \"name\": \"Device 10\",\n            \"blocked\": false,\n            \"simulated\": false,\n            \"data\": {\n                \"temp\": 52,\n                \"humidity\": 77,\n                \"pressure\": 1002.9,\n                \"zone\": \"bellevue/1\",\n                \"marker\": {\n                    \"red\": false,\n                    \"blue\": 51,\n                    \"green\": \"on\"\n                }\n            }\n        },\n        {\n            \"id\": \"d11\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device11\",\n            \"name\": \"Device 11\",\n            \"blocked\": false,\n            \"simulated\": false,\n            \"data\": {\n                \"temp\": 50,\n                \"humidity\": 68,\n                \"pressure\": 1012.3,\n                \"zone\": \"bellevue/1\",\n                \"marker\": {\n                    \"red\": false,\n                    \"blue\": 49,\n                    \"green\": \"on\"\n                }\n            }\n        },\n        {\n            \"id\": \"d12\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device12\",\n            \"name\": \"Device 12\",\n            \"blocked\": false,\n            \"simulated\": true,\n            \"data\": {\n                \"temp\": 53.1,\n                \"humidity\": 70,\n                \"pressure\": 1002.8,\n                \"zone\": \"bellevue/2\",\n                \"marker\": {\n                    \"red\": false,\n                    \"blue\": 50,\n                    \"green\": \"off\"\n                }\n            }\n        }\n    ],\n    \"partitionKey\": \"all\"\n}",
+					"raw": "[\n    {\n        \"partitionKey\": \"d01\",\n        \"data\": {\n            \"id\": \"d01\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device01\",\n            \"name\": \"Device 01\",\n            \"blocked\": false,\n            \"simulated\": false,\n            \"data\": {\n                \"temp\": 50,\n                \"humidity\": 70,\n                \"pressure\": 1002.1,\n                \"zone\": \"seattle/1\",\n                \"marker\": {\n                    \"red\": true,\n                    \"blue\": 51,\n                    \"green\": \"on\"\n                }\n            }\n        }\n    },\n    {\n        \"partitionKey\": \"d02\",\n        \"data\": {\n            \"id\": \"d02\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device02\",\n            \"name\": \"Device 02\",\n            \"blocked\": false,\n            \"simulated\": false,\n            \"data\": {\n                \"temp\": 51,\n                \"humidity\": 65,\n                \"pressure\": 1002.3,\n                \"zone\": \"seattle/1\",\n                \"marker\": {\n                    \"red\": true,\n                    \"blue\": 50,\n                    \"green\": \"on\"\n                }\n            }\n        }\n    },\n    {\n        \"partitionKey\": \"d03\",\n        \"data\": {\n            \"id\": \"d03\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device03\",\n            \"name\": \"Device 03\",\n            \"blocked\": false,\n            \"simulated\": true,\n            \"data\": {\n                \"temp\": 51.1,\n                \"humidity\": 70,\n                \"pressure\": 1001.8,\n                \"zone\": \"seattle/2\",\n                \"marker\": {\n                    \"red\": false,\n                    \"blue\": 50,\n                    \"green\": \"off\"\n                }\n            }\n        }\n    },\n    {\n        \"partitionKey\": \"d04\",\n        \"data\": {\n            \"id\": \"d04\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device04\",\n            \"name\": \"Device 04\",\n            \"blocked\": false,\n            \"simulated\": false,\n            \"data\": {\n                \"temp\": 50,\n                \"humidity\": 70,\n                \"pressure\": 1002.1,\n                \"zone\": \"redmond/1\",\n                \"marker\": {\n                    \"red\": true,\n                    \"blue\": 51,\n                    \"green\": \"on\"\n                }\n            }\n        }\n    },\n    {\n        \"partitionKey\": \"d05\",\n        \"data\": {\n            \"id\": \"d05\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device05\",\n            \"name\": \"Device 05\",\n            \"blocked\": false,\n            \"simulated\": false,\n            \"data\": {\n                \"temp\": 51,\n                \"humidity\": 65,\n                \"pressure\": 1002.3,\n                \"zone\": \"redmond/1\",\n                \"marker\": {\n                    \"red\": true,\n                    \"blue\": 50,\n                    \"green\": \"on\"\n                }\n            }\n        }\n    },\n    {\n        \"partitionKey\": \"d06\",\n        \"data\": {\n            \"id\": \"d06\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device06\",\n            \"name\": \"Device 06\",\n            \"blocked\": false,\n            \"simulated\": true,\n            \"data\": {\n                \"temp\": 51.1,\n                \"humidity\": 70,\n                \"pressure\": 1001.8,\n                \"zone\": \"redmond/2\",\n                \"marker\": {\n                    \"red\": false,\n                    \"blue\": 50,\n                    \"green\": \"off\"\n                }\n            }\n        }\n    },\n    {\n        \"partitionKey\": \"d07\",\n        \"data\": {\n            \"id\": \"d07\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device07\",\n            \"name\": \"Device 07\",\n            \"blocked\": false,\n            \"simulated\": false,\n            \"data\": {\n                \"temp\": 45,\n                \"humidity\": 75,\n                \"pressure\": 1002.5,\n                \"zone\": \"redmond/1\",\n                \"marker\": {\n                    \"red\": true,\n                    \"blue\": 51,\n                    \"green\": \"on\"\n                }\n            }\n        }\n    },\n    {\n        \"partitionKey\": \"d08\",\n        \"data\": {\n            \"id\": \"d08\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device08\",\n            \"name\": \"Device 08\",\n            \"blocked\": true,\n            \"simulated\": false,\n            \"data\": {\n                \"temp\": 51.12,\n                \"humidity\": 62,\n                \"pressure\": 1002.33,\n                \"zone\": \"redmond/1\",\n                \"marker\": {\n                    \"red\": true,\n                    \"blue\": 50,\n                    \"green\": \"off\"\n                }\n            }\n        }\n    },\n    {\n        \"partitionKey\": \"d09\",\n        \"data\": {\n            \"id\": \"d09\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device09\",\n            \"name\": \"Device 09\",\n            \"blocked\": false,\n            \"simulated\": true,\n            \"data\": {\n                \"temp\": 51.5,\n                \"humidity\": 70,\n                \"pressure\": 1000.8,\n                \"zone\": \"redmond/2\",\n                \"marker\": {\n                    \"red\": false,\n                    \"blue\": 50,\n                    \"green\": \"off\"\n                }\n            }\n        }\n    },\n    {\n        \"partitionKey\": \"d010\",\n        \"data\": {\n            \"id\": \"d10\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device10\",\n            \"name\": \"Device 10\",\n            \"blocked\": false,\n            \"simulated\": false,\n            \"data\": {\n                \"temp\": 52,\n                \"humidity\": 77,\n                \"pressure\": 1002.9,\n                \"zone\": \"bellevue/1\",\n                \"marker\": {\n                    \"red\": false,\n                    \"blue\": 51,\n                    \"green\": \"on\"\n                }\n            }\n        }\n    },\n    {\n        \"partitionKey\": \"d11\",\n        \"data\": {\n            \"id\": \"d11\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device11\",\n            \"name\": \"Device 11\",\n            \"blocked\": false,\n            \"simulated\": false,\n            \"data\": {\n                \"temp\": 50,\n                \"humidity\": 68,\n                \"pressure\": 1012.3,\n                \"zone\": \"bellevue/1\",\n                \"marker\": {\n                    \"red\": false,\n                    \"blue\": 49,\n                    \"green\": \"on\"\n                }\n            }\n        }\n    },\n    {\n        \"partitionKey\": \"d12\",\n        \"data\": {\n            \"id\": \"d12\",\n            \"type\": \"Device\",\n            \"deviceId\": \"device12\",\n            \"name\": \"Device 12\",\n            \"blocked\": false,\n            \"simulated\": true,\n            \"data\": {\n                \"temp\": 53.1,\n                \"humidity\": 70,\n                \"pressure\": 1002.8,\n                \"zone\": \"bellevue/2\",\n                \"marker\": {\n                    \"red\": false,\n                    \"blue\": 50,\n                    \"green\": \"off\"\n                }\n            }\n        }\n    }\n]",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -163,7 +163,7 @@
 						}
 					},
 					"_postman_previewlanguage": "json",
-					"header": null,
+					"header": [],
 					"cookie": [],
 					"body": "[\n    {\n        \"id\": \"d01\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device01\",\n        \"name\": \"Device 01\",\n        \"blocked\": false,\n        \"simulated\": false,\n        \"data\": {\n            \"temp\": 50,\n            \"humidity\": 70,\n            \"pressure\": 1002.1,\n            \"zone\": \"seattle/1\",\n            \"marker\": {\n                \"red\": true,\n                \"blue\": 51,\n                \"green\": \"on\"\n            }\n        }\n    },\n    {\n        \"id\": \"d02\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device02\",\n        \"name\": \"Device 02\",\n        \"blocked\": false,\n        \"simulated\": false,\n        \"data\": {\n            \"temp\": 51,\n            \"humidity\": 65,\n            \"pressure\": 1002.3,\n            \"zone\": \"seattle/1\",\n            \"marker\": {\n                \"red\": true,\n                \"blue\": 50,\n                \"green\": \"on\"\n            }\n        }\n    },\n    {\n        \"id\": \"d03\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device03\",\n        \"name\": \"Device 03\",\n        \"blocked\": false,\n        \"simulated\": true,\n        \"data\": {\n            \"temp\": 51.1,\n            \"humidity\": 70,\n            \"pressure\": 1001.8,\n            \"zone\": \"seattle/2\",\n            \"marker\": {\n                \"red\": false,\n                \"blue\": 50,\n                \"green\": \"off\"\n            }\n        }\n    },\n    {\n        \"id\": \"d04\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device04\",\n        \"name\": \"Device 04\",\n        \"blocked\": false,\n        \"simulated\": false,\n        \"data\": {\n            \"temp\": 50,\n            \"humidity\": 70,\n            \"pressure\": 1002.1,\n            \"zone\": \"redmond/1\",\n            \"marker\": {\n                \"red\": true,\n                \"blue\": 51,\n                \"green\": \"on\"\n            }\n        }\n    },\n    {\n        \"id\": \"d05\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device05\",\n        \"name\": \"Device 05\",\n        \"blocked\": false,\n        \"simulated\": false,\n        \"data\": {\n            \"temp\": 51,\n            \"humidity\": 65,\n            \"pressure\": 1002.3,\n            \"zone\": \"redmond/1\",\n            \"marker\": {\n                \"red\": true,\n                \"blue\": 50,\n                \"green\": \"on\"\n            }\n        }\n    },\n    {\n        \"id\": \"d06\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device06\",\n        \"name\": \"Device 06\",\n        \"blocked\": false,\n        \"simulated\": true,\n        \"data\": {\n            \"temp\": 51.1,\n            \"humidity\": 70,\n            \"pressure\": 1001.8,\n            \"zone\": \"redmond/2\",\n            \"marker\": {\n                \"red\": false,\n                \"blue\": 50,\n                \"green\": \"off\"\n            }\n        }\n    },\n    {\n        \"id\": \"d07\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device07\",\n        \"name\": \"Device 07\",\n        \"blocked\": false,\n        \"simulated\": false,\n        \"data\": {\n            \"temp\": 45,\n            \"humidity\": 75,\n            \"pressure\": 1002.5,\n            \"zone\": \"redmond/1\",\n            \"marker\": {\n                \"red\": true,\n                \"blue\": 51,\n                \"green\": \"on\"\n            }\n        }\n    },\n    {\n        \"id\": \"d08\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device08\",\n        \"name\": \"Device 08\",\n        \"blocked\": true,\n        \"simulated\": false,\n        \"data\": {\n            \"temp\": 51.12,\n            \"humidity\": 62,\n            \"pressure\": 1002.33,\n            \"zone\": \"redmond/1\",\n            \"marker\": {\n                \"red\": true,\n                \"blue\": 50,\n                \"green\": \"off\"\n            }\n        }\n    },\n    {\n        \"id\": \"d09\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device09\",\n        \"name\": \"Device 09\",\n        \"blocked\": false,\n        \"simulated\": true,\n        \"data\": {\n            \"temp\": 51.5,\n            \"humidity\": 70,\n            \"pressure\": 1000.8,\n            \"zone\": \"redmond/2\",\n            \"marker\": {\n                \"red\": false,\n                \"blue\": 50,\n                \"green\": \"off\"\n            }\n        }\n    },\n    {\n        \"id\": \"d10\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device10\",\n        \"name\": \"Device 10\",\n        \"blocked\": false,\n        \"simulated\": false,\n        \"data\": {\n            \"temp\": 52,\n            \"humidity\": 77,\n            \"pressure\": 1002.9,\n            \"zone\": \"bellevue/1\",\n            \"marker\": {\n                \"red\": false,\n                \"blue\": 51,\n                \"green\": \"on\"\n            }\n        }\n    },\n    {\n        \"id\": \"d11\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device11\",\n        \"name\": \"Device 11\",\n        \"blocked\": false,\n        \"simulated\": false,\n        \"data\": {\n            \"temp\": 50,\n            \"humidity\": 68,\n            \"pressure\": 1012.3,\n            \"zone\": \"bellevue/1\",\n            \"marker\": {\n                \"red\": false,\n                \"blue\": 49,\n                \"green\": \"on\"\n            }\n        }\n    },\n    {\n        \"id\": \"d12\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device12\",\n        \"name\": \"Device 12\",\n        \"blocked\": false,\n        \"simulated\": true,\n        \"data\": {\n            \"temp\": 53.1,\n            \"humidity\": 70,\n            \"pressure\": 1002.8,\n            \"zone\": \"bellevue/2\",\n            \"marker\": {\n                \"red\": false,\n                \"blue\": 50,\n                \"green\": \"off\"\n            }\n        }\n    }\n]"
 				}
@@ -275,7 +275,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"partitionKey\" : \"d02\",\n    \"data\": {\n        \"id\": \"d02\",\n        \"data\": {\n            \"temp\": 52.3,\n            \"marker\": {\n                \"green\": \"on\"\n            }\n        }\n    }\n}"
+					"raw": "[\n    {\n        \"partitionKey\": \"d02\",\n        \"data\": {\n            \"id\": \"d02\",\n            \"data\": {\n                \"temp\": 52.5,\n                \"marker\": {\n                    \"green\": \"on\"\n                }\n            }\n        }\n    }\n]"
 				},
 				"url": {
 					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/json",
@@ -354,7 +354,7 @@
 						}
 					],
 					"cookie": [],
-					"body": null
+					"body": ""
 				}
 			]
 		},
@@ -645,10 +645,10 @@
 							]
 						}
 					},
-					"_postman_previewlanguage": null,
-					"header": null,
+					"_postman_previewlanguage": "Text",
+					"header": [],
 					"cookie": [],
-					"body": null
+					"body": ""
 				}
 			]
 		},
@@ -727,10 +727,10 @@
 							]
 						}
 					},
-					"_postman_previewlanguage": null,
-					"header": null,
+					"_postman_previewlanguage": "Text",
+					"header": [],
 					"cookie": [],
-					"body": null
+					"body": ""
 				}
 			]
 		},
@@ -809,10 +809,10 @@
 							]
 						}
 					},
-					"_postman_previewlanguage": null,
-					"header": null,
+					"_postman_previewlanguage": "Text",
+					"header": [],
 					"cookie": [],
-					"body": null
+					"body": ""
 				}
 			]
 		},
@@ -943,7 +943,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"partitionKey\": \"d01\",\n    \"data\": {\n        \"id\": \"d01\",\n        \"blocked\": false,\n        \"data\": {\n            \"id\": \"d01#data\",\n            \"humidity\": 70,\n            \"marker\": {\n                \"id\": \"d01#data#marker\",\n                \"blue\": 51,\n                \"green\": \"on\",\n                \"red\": true\n            },\n            \"pressure\": 1002.1,\n            \"temp\": 50,\n            \"zone\": \"seattle/1\"\n        },\n        \"deviceId\": \"device01\",\n        \"name\": \"Device 01\",\n        \"simulated\": false,\n        \"type\": \"Device\"\n    }\n}"
+					"raw": "[\n    {\n        \"partitionKey\": \"d01\",\n        \"data\": {\n            \"id\": \"d01\",\n            \"blocked\": false,\n            \"data\": {\n                \"id\": \"d01#data\",\n                \"humidity\": 70,\n                \"marker\": {\n                    \"id\": \"d01#data#marker\",\n                    \"blue\": 51,\n                    \"green\": \"on\",\n                    \"red\": true\n                },\n                \"pressure\": 1002.1,\n                \"temp\": 50,\n                \"zone\": \"seattle/1\"\n            },\n            \"deviceId\": \"device01\",\n            \"name\": \"Device 01\",\n            \"simulated\": false,\n            \"type\": \"Device\"\n        }\n    }\n]"
 				},
 				"url": {
 					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/subject",
@@ -1108,7 +1108,7 @@
 						}
 					},
 					"_postman_previewlanguage": "json",
-					"header": null,
+					"header": [],
 					"cookie": [],
 					"body": "[\n    {\n        \"id\": \"d01\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device01\",\n        \"name\": \"Device 01\",\n        \"blocked\": false,\n        \"simulated\": false,\n        \"data\": {\n            \"temp\": 50,\n            \"humidity\": 70,\n            \"pressure\": 1002.1,\n            \"zone\": \"seattle/1\",\n            \"marker\": {\n                \"red\": true,\n                \"blue\": 51,\n                \"green\": \"on\"\n            }\n        }\n    },\n    {\n        \"id\": \"d02\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device02\",\n        \"name\": \"Device 02\",\n        \"blocked\": false,\n        \"simulated\": false,\n        \"data\": {\n            \"temp\": 51,\n            \"humidity\": 65,\n            \"pressure\": 1002.3,\n            \"zone\": \"seattle/1\",\n            \"marker\": {\n                \"red\": true,\n                \"blue\": 50,\n                \"green\": \"on\"\n            }\n        }\n    },\n    {\n        \"id\": \"d03\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device03\",\n        \"name\": \"Device 03\",\n        \"blocked\": false,\n        \"simulated\": true,\n        \"data\": {\n            \"temp\": 51.1,\n            \"humidity\": 70,\n            \"pressure\": 1001.8,\n            \"zone\": \"seattle/2\",\n            \"marker\": {\n                \"red\": false,\n                \"blue\": 50,\n                \"green\": \"off\"\n            }\n        }\n    },\n    {\n        \"id\": \"d04\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device04\",\n        \"name\": \"Device 04\",\n        \"blocked\": false,\n        \"simulated\": false,\n        \"data\": {\n            \"temp\": 50,\n            \"humidity\": 70,\n            \"pressure\": 1002.1,\n            \"zone\": \"redmond/1\",\n            \"marker\": {\n                \"red\": true,\n                \"blue\": 51,\n                \"green\": \"on\"\n            }\n        }\n    },\n    {\n        \"id\": \"d05\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device05\",\n        \"name\": \"Device 05\",\n        \"blocked\": false,\n        \"simulated\": false,\n        \"data\": {\n            \"temp\": 51,\n            \"humidity\": 65,\n            \"pressure\": 1002.3,\n            \"zone\": \"redmond/1\",\n            \"marker\": {\n                \"red\": true,\n                \"blue\": 50,\n                \"green\": \"on\"\n            }\n        }\n    },\n    {\n        \"id\": \"d06\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device06\",\n        \"name\": \"Device 06\",\n        \"blocked\": false,\n        \"simulated\": true,\n        \"data\": {\n            \"temp\": 51.1,\n            \"humidity\": 70,\n            \"pressure\": 1001.8,\n            \"zone\": \"redmond/2\",\n            \"marker\": {\n                \"red\": false,\n                \"blue\": 50,\n                \"green\": \"off\"\n            }\n        }\n    },\n    {\n        \"id\": \"d07\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device07\",\n        \"name\": \"Device 07\",\n        \"blocked\": false,\n        \"simulated\": false,\n        \"data\": {\n            \"temp\": 45,\n            \"humidity\": 75,\n            \"pressure\": 1002.5,\n            \"zone\": \"redmond/1\",\n            \"marker\": {\n                \"red\": true,\n                \"blue\": 51,\n                \"green\": \"on\"\n            }\n        }\n    },\n    {\n        \"id\": \"d08\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device08\",\n        \"name\": \"Device 08\",\n        \"blocked\": true,\n        \"simulated\": false,\n        \"data\": {\n            \"temp\": 51.12,\n            \"humidity\": 62,\n            \"pressure\": 1002.33,\n            \"zone\": \"redmond/1\",\n            \"marker\": {\n                \"red\": true,\n                \"blue\": 50,\n                \"green\": \"off\"\n            }\n        }\n    },\n    {\n        \"id\": \"d09\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device09\",\n        \"name\": \"Device 09\",\n        \"blocked\": false,\n        \"simulated\": true,\n        \"data\": {\n            \"temp\": 51.5,\n            \"humidity\": 70,\n            \"pressure\": 1000.8,\n            \"zone\": \"redmond/2\",\n            \"marker\": {\n                \"red\": false,\n                \"blue\": 50,\n                \"green\": \"off\"\n            }\n        }\n    },\n    {\n        \"id\": \"d10\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device10\",\n        \"name\": \"Device 10\",\n        \"blocked\": false,\n        \"simulated\": false,\n        \"data\": {\n            \"temp\": 52,\n            \"humidity\": 77,\n            \"pressure\": 1002.9,\n            \"zone\": \"bellevue/1\",\n            \"marker\": {\n                \"red\": false,\n                \"blue\": 51,\n                \"green\": \"on\"\n            }\n        }\n    },\n    {\n        \"id\": \"d11\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device11\",\n        \"name\": \"Device 11\",\n        \"blocked\": false,\n        \"simulated\": false,\n        \"data\": {\n            \"temp\": 50,\n            \"humidity\": 68,\n            \"pressure\": 1012.3,\n            \"zone\": \"bellevue/1\",\n            \"marker\": {\n                \"red\": false,\n                \"blue\": 49,\n                \"green\": \"on\"\n            }\n        }\n    },\n    {\n        \"id\": \"d12\",\n        \"type\": \"Device\",\n        \"deviceId\": \"device12\",\n        \"name\": \"Device 12\",\n        \"blocked\": false,\n        \"simulated\": true,\n        \"data\": {\n            \"temp\": 53.1,\n            \"humidity\": 70,\n            \"pressure\": 1002.8,\n            \"zone\": \"bellevue/2\",\n            \"marker\": {\n                \"red\": false,\n                \"blue\": 50,\n                \"green\": \"off\"\n            }\n        }\n    }\n]"
 				}
@@ -1215,7 +1215,7 @@
 						}
 					],
 					"cookie": [],
-					"body": null
+					"body": ""
 				}
 			]
 		},
@@ -1340,7 +1340,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"building\"\n        }\n    },\n    \"outgoing\": [\n        {\n            \"path\": \"floors#rooms#sensors#marker\",\n            \"target\": {\n                \"filter\": {\n                    \"green\": {\n                        \"op\": \"ge\",\n                        \"value\": 9.98\n                    }\n                }\n            }\n        }\n    ]\n}"
+					"raw": "{\n    \"filter\": {\n        \"type\": {\n            \"op\": \"eq\",\n            \"value\": \"building\"\n        }\n    },\n    \"outgoing\": [\n        {\n            \"path\": \"floors/rooms/sensors/marker\",\n            \"target\": {\n                \"filter\": {\n                    \"green\": {\n                        \"op\": \"ge\",\n                        \"value\": 9.98\n                    }\n                }\n            }\n        }\n    ]\n}"
 				},
 				"url": {
 					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/query",
@@ -1661,7 +1661,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"partitionKey\": \"campus01\",\n    \"data\": {\n        \"id\": \"campus01\",\n        \"name\": \"Campus One\",\n        \"type\": \"campus\",\n        \"buildings\": [\n            {\n                \"id\": \"09CBmKHVuW5\"\n            },\n            {\n                \"id\": \"14se1Rzd-59\"\n            },\n            {\n                \"id\": \"3mSPwERPaN-\"\n            },\n            {\n                \"id\": \"5E1XfdnWmJ\"\n            }\n        ]\n    }\n}"
+					"raw": "[\n    {\n        \"partitionKey\": \"campus01\",\n        \"data\": {\n            \"id\": \"campus01\",\n            \"name\": \"Campus One\",\n            \"type\": \"campus\",\n            \"buildings\": [\n                {\n                    \"id\": \"09CBmKHVuW5\"\n                },\n                {\n                    \"id\": \"14se1Rzd-59\"\n                },\n                {\n                    \"id\": \"3mSPwERPaN-\"\n                },\n                {\n                    \"id\": \"5E1XfdnWmJ\"\n                }\n            ]\n        }\n    }\n]"
 				},
 				"url": {
 					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/json",
@@ -1740,7 +1740,7 @@
 						}
 					],
 					"cookie": [],
-					"body": null
+					"body": ""
 				}
 			]
 		},
@@ -1850,7 +1850,7 @@
 						}
 					],
 					"cookie": [],
-					"body": null
+					"body": ""
 				}
 			]
 		},
@@ -1868,7 +1868,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"partitionKey\": \"campus01\",\n    \"data\": {\n        \"remove\": {\n            \"id\": \"campus01\",\n            \"buildings\": [\n                {\n                    \"id\": \"09CBmKHVuW5\"\n                }\n            ]\n        },\n        \"add\": {\n            \"id\": \"campus01\",\n            \"buildings\": [\n                {\n                    \"id\": \"HH2hXMWyrsw\"\n                }\n            ]\n        }\n    }\n}"
+					"raw": "[\n    {\n        \"partitionKey\": \"campus01\",\n        \"data\": {\n            \"remove\": {\n                \"id\": \"campus01\",\n                \"buildings\": [\n                    {\n                        \"id\": \"09CBmKHVuW5\"\n                    }\n                ]\n            },\n            \"add\": {\n                \"id\": \"campus01\",\n                \"buildings\": [\n                    {\n                        \"id\": \"HH2hXMWyrsw\"\n                    }\n                ]\n            }\n        }\n    }\n]"
 				},
 				"url": {
 					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/triple",
@@ -1947,7 +1947,7 @@
 						}
 					],
 					"cookie": [],
-					"body": null
+					"body": ""
 				}
 			]
 		},
@@ -2057,7 +2057,7 @@
 						}
 					],
 					"cookie": [],
-					"body": null
+					"body": ""
 				}
 			]
 		},
@@ -2717,7 +2717,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"partitionKey\": \"all\",\n    \"data\": [\n        {\n            \"id\": \"route01\",\n            \"name\": \"Route 1\",\n            \"type\": \"route\",\n            \"buildings\": [\n                {\n                    \"id\": \"09CBmKHVuW5\"\n                },\n                {\n                    \"id\": \"14se1Rzd-59\"\n                }\n            ],\n            \"routes\": {\n                \"id\": \"route02\"\n            }\n        },\n        {\n            \"id\": \"route02\",\n            \"name\": \"Route 2\",\n            \"type\": \"route\",\n            \"routes\": [\n                {\n                    \"id\": \"route01\"\n                }\n            ]\n        }\n    ]\n}"
+					"raw": "[\n    {\n        \"partitionKey\": \"all\",\n        \"data\":\n            {\n                \"id\": \"route01\",\n                \"name\": \"Route 1\",\n                \"type\": \"route\",\n                \"buildings\": [\n                    {\n                        \"id\": \"09CBmKHVuW5\"\n                    },\n                    {\n                        \"id\": \"14se1Rzd-59\"\n                    }\n                ],\n                \"routes\": {\n                    \"id\": \"route02\"\n                }\n            }\n    },\n    {\n    \t\"partitionKey\" : \"all\",\n    \t\"data\" : {\n                \"id\": \"route02\",\n                \"name\": \"Route 2\",\n                \"type\": \"route\",\n                \"routes\": [\n                    {\n                        \"id\": \"route01\"\n                    }\n                ]\n            }\n    }\n    \n    ]"
 				},
 				"url": {
 					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}/json",
@@ -2796,7 +2796,7 @@
 						}
 					],
 					"cookie": [],
-					"body": null
+					"body": ""
 				}
 			]
 		},
@@ -2902,7 +2902,7 @@
 						}
 					],
 					"cookie": [],
-					"body": null
+					"body": ""
 				}
 			]
 		},
@@ -3448,10 +3448,10 @@
 							]
 						}
 					},
-					"_postman_previewlanguage": null,
-					"header": null,
+					"_postman_previewlanguage": "Text",
+					"header": [],
 					"cookie": [],
-					"body": null
+					"body": ""
 				}
 			]
 		},
@@ -3469,7 +3469,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"partitionKey\": \"witharray\",\n    \"data\": {\n        \"id\": \"witharray\",\n        \"values\": [\n            10,\n            20,\n            10,\n            11,\n            29,\n            1\n        ],\n        \"objets\": [\n            {\n                \"id\": \"o3\",\n                \"foo\": \"bar\"\n            },\n            {\n                \"id\": \"o1\",\n                \"foo\": \"baz\"\n            },\n            {\n                \"id\": \"o2\",\n                \"foo\": \"baz\"\n            }\n        ]\n    }\n}"
+					"raw": "[\n    {\n        \"partitionKey\": \"witharray\",\n        \"data\": {\n            \"id\": \"witharray\",\n            \"values\": [\n                10,\n                20,\n                10,\n                11,\n                29,\n                1\n            ],\n            \"objets\": [\n                {\n                    \"id\": \"o3\",\n                    \"foo\": \"bar\"\n                },\n                {\n                    \"id\": \"o1\",\n                    \"foo\": \"baz\"\n                },\n                {\n                    \"id\": \"o2\",\n                    \"foo\": \"baz\"\n                }\n            ]\n        }\n    }\n]"
 				},
 				"url": {
 					"raw": "http://{{host}}:{{port}}/api/store/{{appId}}?strict=true",
